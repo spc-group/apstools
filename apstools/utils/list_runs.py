@@ -21,8 +21,6 @@ import warnings
 from collections import defaultdict
 
 import databroker
-import databroker._drivers.mongo_normalized
-import databroker._drivers.msgpack
 import databroker.queries
 
 from ._core import FIRST_DATA

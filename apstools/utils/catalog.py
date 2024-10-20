@@ -17,8 +17,6 @@ Working with databroker catalogs
 import logging
 
 import databroker
-import databroker._drivers.mongo_normalized
-import databroker._drivers.msgpack
 import databroker.queries
 import pandas as pd
 import pyRestTable

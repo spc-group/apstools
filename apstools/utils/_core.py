@@ -1,7 +1,6 @@
 from enum import Enum
 
-import databroker._drivers.mongo_normalized
-import databroker._drivers.msgpack
+import databroker
 import intake
 import pandas
 import pyRestTable
@@ -11,13 +10,10 @@ LAST_DATA = "2100-12-31"
 
 CATALOG_CLASSES = (
     databroker.Broker,
-    databroker._drivers.mongo_normalized.BlueskyMongoCatalog,
-    databroker._drivers.msgpack.BlueskyMsgpackCatalog,
     intake.Catalog,
 )
 MONGO_CATALOG_CLASSES = (
     databroker.Broker,
-    databroker._drivers.mongo_normalized.BlueskyMongoCatalog,
     # intake.Catalog,
 )
 MAX_EPICS_STRINGOUT_LENGTH = 40
