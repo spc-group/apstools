@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 
@@ -27,8 +26,8 @@
   </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=18bd87630a240e9c25be" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=18bd87630a240e9c25be" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
@@ -37,19 +36,19 @@
     <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=fb1a6b5d" />
   
   <!-- So that users can add custom icons -->
-  <script defer src="../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
+  <script defer src="../_static/scripts/fontawesome.js?digest=18bd87630a240e9c25be"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=18bd87630a240e9c25be" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=18bd87630a240e9c25be" />
 
-    <script src="../_static/documentation_options.js?v=ccf66f66"></script>
+    <script src="../_static/documentation_options.js?v=ffe3ab98"></script>
     <script src="../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'examples/fw_specfile_example';</script>
     <script>
-        DOCUMENTATION_OPTIONS.theme_version = '0.20.0';
+        DOCUMENTATION_OPTIONS.theme_version = '0.23.0';
         DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://raw.githubusercontent.com/BCDA-APS/apstools/main/docs/source/_static/switcher.json';
         DOCUMENTATION_OPTIONS.theme_switcher_version_match = 'dev';
         DOCUMENTATION_OPTIONS.show_version_warning_banner =
@@ -61,6 +60,7 @@
     <link rel="next" title="How-To Examples" href="howto_examples.html" />
     <link rel="prev" title="Callback" href="fw_nxwriter.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="color-scheme" content="light dark"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="0.1" />
   
@@ -110,7 +110,7 @@
   
     <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
 <div class="bd-header__inner bd-page-width">
-  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+  <button type="button" class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
     <span class="fa-solid fa-bars"></span>
   </button>
   
@@ -216,7 +216,7 @@
         <div class="navbar-item navbar-persistent--container">
           
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button type="button" class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
  <i class="fa-solid fa-magnifying-glass"></i>
  <span class="search-button__default-text">Search</span>
  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -227,15 +227,15 @@
         <div class="navbar-item">
 
 <div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+  <button type="button" class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
     <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
     <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
     <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
   </button>
   <ul class="dropdown-menu dropdown-menu-end">
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
   </ul>
 </div></div>
       
@@ -261,7 +261,7 @@
   
     <div class="navbar-persistent--mobile">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button type="button" class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
  <i class="fa-solid fa-magnifying-glass"></i>
  <span class="search-button__default-text">Search</span>
  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -270,7 +270,7 @@
   
 
   
-    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+    <button type="button" class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
       <span class="fa-solid fa-outdent"></span>
     </button>
   
@@ -354,15 +354,15 @@
           <div class="navbar-item">
 
 <div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+  <button type="button" class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
     <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
     <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
     <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
   </button>
   <ul class="dropdown-menu dropdown-menu-end">
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
   </ul>
 </div></div>
         
@@ -386,7 +386,7 @@
   </div>
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
-        <div class="sidebar-primary-item pst-sidebar-collapse"><button id="pst-collapse-sidebar-button" aria-expanded="true" aria-controls="pst-primary-sidebar">
+        <div class="sidebar-primary-item pst-sidebar-collapse"><button type="button" id="pst-collapse-sidebar-button" aria-expanded="true" aria-controls="pst-primary-sidebar">
   <svg class="pst-icon" role="img" aria-hidden="true" focusable="false" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
     <path fill="currentColor" d="M3 15.5C2.36232 15.5 1.74874 15.2564 1.28478 14.8189C0.820828 14.3815 0.541576 13.7832 0.504167 13.1467L0.5 13L0.5 3C0.499965 2.36232 0.743605 1.74874 1.18107 1.28478C1.61854 0.820828 2.21676 0.541576 2.85333 0.504167L3 0.5L13 0.5C13.6377 0.499965 14.2513 0.743605 14.7152 1.18107C15.1792 1.61854 15.4584 2.21676 15.4958 2.85333L15.5 3L15.5 13C15.5 13.6377 15.2564 14.2513 14.8189 14.7152C14.3815 15.1792 13.7832 15.4584 13.1467 15.4958L13 15.5L3 15.5ZM3 13.8333L10.5 13.8333L10.5 2.16667L3 2.16667C2.79589 2.16669 2.59889 2.24163 2.44636 2.37726C2.29383 2.5129 2.19638 2.69979 2.1725 2.9025L2.16667 3L2.16667 13C2.16669 13.2041 2.24163 13.4011 2.37726 13.5536C2.5129 13.7062 2.69979 13.8036 2.9025 13.8275L3 13.8333ZM6.65583 10.325L6.5775 10.2558L4.91083 8.58917C4.76735 8.44567 4.68116 8.25476 4.66843 8.05223C4.65569 7.84971 4.71729 7.6495 4.84167 7.48917L4.91083 7.41083L6.5775 5.74417C6.72747 5.59471 6.9287 5.50794 7.14032 5.50148C7.35194 5.49502 7.55809 5.56935 7.7169 5.70937C7.8757 5.8494 7.97525 6.04463 7.99533 6.25539C8.01541 6.46616 7.95451 6.67667 7.825 6.84417L7.75583 6.9225L6.67917 8L7.75583 9.0775C7.89931 9.22099 7.98551 9.41191 7.99824 9.61443C8.01097 9.81695 7.94938 10.0172 7.825 10.1775L7.75583 10.2558C7.61234 10.3993 7.42142 10.4855 7.2189 10.4982C7.01638 10.511 6.81617 10.4494 6.65583 10.325Z"/>
   </svg>
@@ -406,6 +406,7 @@
 <li class="toctree-l2"><a class="reference internal" href="de_ad_pe.html">ADPerkinElmer Area Detector with default HDF5 File Name</a></li>
 <li class="toctree-l2"><a class="reference internal" href="de_ad_pilatus.html">ADPilatus Area Detector with default HDF5 File Name</a></li>
 <li class="toctree-l2"><a class="reference internal" href="de_aps_data_management.html">Integration with APS Data Management (DM)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="de_quadem_continuous.html">quadEM electrometers (TetrAMM, FX4, …) in continuous mode</a></li>
 <li class="toctree-l2"><a class="reference internal" href="de_sscan.html">The synApps <code class="docutils literal notranslate"><span class="pre">sscan</span></code> and <code class="docutils literal notranslate"><span class="pre">SscanRecord</span></code></a></li>
 </ul>
 </details></li>
@@ -414,7 +415,7 @@
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="filewriter_examples.html">File Writer Examples</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="fw_nxwriter.html">Callback</a></li>
 
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Output scan(s) to a SPEC data file.</a></li>
+<li class="toctree-l2 current active"><a aria-current="page" class="current reference internal" href="#">Output scan(s) to a SPEC data file.</a></li>
 </ul>
 </details></li>
 </ul>
@@ -543,7 +544,7 @@
 
 
 <span class="k">def</span><span class="w"> </span><span class="nf">motor_start_preprocessor</span><span class="p">(</span><span class="n">plan</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">label_stream_wrapper</span><span class="p">(</span><span class="n">plan</span><span class="p">,</span> <span class="s2">&quot;motor&quot;</span><span class="p">,</span> <span class="n">when</span><span class="o">=</span><span class="s2">&quot;start&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">label_stream_wrapper</span><span class="p">(</span><span class="n">plan</span><span class="p">,</span> <span class="s2">"motor"</span><span class="p">,</span> <span class="n">when</span><span class="o">=</span><span class="s2">"start"</span><span class="p">)</span>
 
 
 <span class="n">RE</span><span class="o">.</span><span class="n">preprocessors</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">motor_start_preprocessor</span><span class="p">)</span>
@@ -558,19 +559,19 @@
 <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">ophyd</span><span class="w"> </span><span class="kn">import</span> <span class="n">EpicsMotor</span><span class="p">,</span> <span class="n">EpicsSignal</span>
 
-<span class="n">IOC</span> <span class="o">=</span> <span class="s2">&quot;gp:&quot;</span>
-<span class="n">motor</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m1&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;motor&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;motor&quot;</span><span class="p">])</span>
+<span class="n">IOC</span> <span class="o">=</span> <span class="s2">"gp:"</span>
+<span class="n">motor</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m1"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"motor"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"motor"</span><span class="p">])</span>
 <span class="c1"># define some extra motors to demonstrate #O &amp; #P lines</span>
-<span class="n">omega</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m2&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;omega&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;motor&quot;</span><span class="p">])</span>
-<span class="n">chi</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m3&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;chi&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;motor&quot;</span><span class="p">])</span>
-<span class="n">phi</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m4&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;phi&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;motor&quot;</span><span class="p">])</span>
-<span class="n">ttheta</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m5&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;ttheta&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;motor&quot;</span><span class="p">])</span>
-<span class="n">atth</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m6&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;atth&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;motor&quot;</span><span class="p">])</span>
-<span class="n">mx</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m7&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;mx&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;motor&quot;</span><span class="p">])</span>
-<span class="n">my</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m8&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;my&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;motor&quot;</span><span class="p">])</span>
-<span class="n">mz</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m9&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;mz&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;motor&quot;</span><span class="p">])</span>
-<span class="n">swait</span> <span class="o">=</span> <span class="n">UserCalcN</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">userCalc1&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;swait&quot;</span><span class="p">)</span>
-<span class="n">det</span> <span class="o">=</span> <span class="n">EpicsSignal</span><span class="p">(</span><span class="n">swait</span><span class="o">.</span><span class="n">calculated_value</span><span class="o">.</span><span class="n">pvname</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;det&quot;</span><span class="p">)</span>
+<span class="n">omega</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m2"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"omega"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"motor"</span><span class="p">])</span>
+<span class="n">chi</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m3"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"chi"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"motor"</span><span class="p">])</span>
+<span class="n">phi</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m4"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"phi"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"motor"</span><span class="p">])</span>
+<span class="n">ttheta</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m5"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"ttheta"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"motor"</span><span class="p">])</span>
+<span class="n">atth</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m6"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"atth"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"motor"</span><span class="p">])</span>
+<span class="n">mx</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m7"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"mx"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"motor"</span><span class="p">])</span>
+<span class="n">my</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m8"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"my"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"motor"</span><span class="p">])</span>
+<span class="n">mz</span> <span class="o">=</span> <span class="n">EpicsMotor</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">m9"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"mz"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"motor"</span><span class="p">])</span>
+<span class="n">swait</span> <span class="o">=</span> <span class="n">UserCalcN</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">IOC</span><span class="si">}</span><span class="s2">userCalc1"</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"swait"</span><span class="p">)</span>
+<span class="n">det</span> <span class="o">=</span> <span class="n">EpicsSignal</span><span class="p">(</span><span class="n">swait</span><span class="o">.</span><span class="n">calculated_value</span><span class="o">.</span><span class="n">pvname</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"det"</span><span class="p">)</span>
 
 <span class="n">motor</span><span class="o">.</span><span class="n">wait_for_connection</span><span class="p">()</span>
 <span class="n">swait</span><span class="o">.</span><span class="n">wait_for_connection</span><span class="p">()</span>
@@ -585,12 +586,12 @@
     <span class="n">scale</span><span class="o">=</span><span class="mi">100_000</span> <span class="o">*</span> <span class="p">(</span><span class="mf">0.95</span> <span class="o">+</span> <span class="mf">0.1</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">()),</span>
 <span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;calc = </span><span class="si">{</span><span class="n">swait</span><span class="o">.</span><span class="n">calculation</span><span class="o">.</span><span class="n">get</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;A: x = </span><span class="si">{</span><span class="n">swait</span><span class="o">.</span><span class="n">channels</span><span class="o">.</span><span class="n">A</span><span class="o">.</span><span class="n">input_pv</span><span class="o">.</span><span class="n">get</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;B: center = </span><span class="si">{</span><span class="n">swait</span><span class="o">.</span><span class="n">channels</span><span class="o">.</span><span class="n">B</span><span class="o">.</span><span class="n">input_value</span><span class="o">.</span><span class="n">get</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;C: width = </span><span class="si">{</span><span class="n">swait</span><span class="o">.</span><span class="n">channels</span><span class="o">.</span><span class="n">C</span><span class="o">.</span><span class="n">input_value</span><span class="o">.</span><span class="n">get</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;D: scale = </span><span class="si">{</span><span class="n">swait</span><span class="o">.</span><span class="n">channels</span><span class="o">.</span><span class="n">D</span><span class="o">.</span><span class="n">input_value</span><span class="o">.</span><span class="n">get</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;E: noise= </span><span class="si">{</span><span class="n">swait</span><span class="o">.</span><span class="n">channels</span><span class="o">.</span><span class="n">E</span><span class="o">.</span><span class="n">input_value</span><span class="o">.</span><span class="n">get</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"calc = </span><span class="si">{</span><span class="n">swait</span><span class="o">.</span><span class="n">calculation</span><span class="o">.</span><span class="n">get</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"A: x = </span><span class="si">{</span><span class="n">swait</span><span class="o">.</span><span class="n">channels</span><span class="o">.</span><span class="n">A</span><span class="o">.</span><span class="n">input_pv</span><span class="o">.</span><span class="n">get</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"B: center = </span><span class="si">{</span><span class="n">swait</span><span class="o">.</span><span class="n">channels</span><span class="o">.</span><span class="n">B</span><span class="o">.</span><span class="n">input_value</span><span class="o">.</span><span class="n">get</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"C: width = </span><span class="si">{</span><span class="n">swait</span><span class="o">.</span><span class="n">channels</span><span class="o">.</span><span class="n">C</span><span class="o">.</span><span class="n">input_value</span><span class="o">.</span><span class="n">get</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"D: scale = </span><span class="si">{</span><span class="n">swait</span><span class="o">.</span><span class="n">channels</span><span class="o">.</span><span class="n">D</span><span class="o">.</span><span class="n">input_value</span><span class="o">.</span><span class="n">get</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"E: noise= </span><span class="si">{</span><span class="n">swait</span><span class="o">.</span><span class="n">channels</span><span class="o">.</span><span class="n">E</span><span class="o">.</span><span class="n">input_value</span><span class="o">.</span><span class="n">get</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -614,9 +615,9 @@ E: noise= 0.05133473921276364
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Transient Scan ID: 1     Time: 2025-11-25 10:47:31
-Persistent Unique Scan ID: &#39;de507b9d-c75b-465b-94f7-a7797b983f44&#39;
-New stream: &#39;label_start_motor&#39;
-New stream: &#39;primary&#39;
+Persistent Unique Scan ID: 'de507b9d-c75b-465b-94f7-a7797b983f44'
+New stream: 'label_start_motor'
+New stream: 'primary'
 +-----------+------------+------------+------------+
 |   seq_num |       time |      motor |        det |
 +-----------+------------+------------+------------+
@@ -662,10 +663,10 @@ New stream: &#39;primary&#39;
 |        40 | 10:47:48.2 |     1.1400 |    0.00000 |
 |        41 | 10:47:48.5 |     1.2000 |    0.00000 |
 +-----------+------------+------------+------------+
-generator scan [&#39;de507b9d&#39;] (scan num: 1)
+generator scan ['de507b9d'] (scan num: 1)
 </pre></div>
 </div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(&#39;de507b9d-c75b-465b-94f7-a7797b983f44&#39;,)
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>('de507b9d-c75b-465b-94f7-a7797b983f44',)
 </pre></div>
 </div>
 <img alt="../_images/f9c601a731fd67806ab5dd733a7bcf5b9339345f802c95e9aa795b6505d8d89a.png" src="../_images/f9c601a731fd67806ab5dd733a7bcf5b9339345f802c95e9aa795b6505d8d89a.png" />
@@ -686,8 +687,8 @@ generator scan [&#39;de507b9d&#39;] (scan num: 1)
 </div>
 <div class="cell_output docutils container">
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>BlueskyRun
-  uid=&#39;de507b9d-c75b-465b-94f7-a7797b983f44&#39;
-  exit_status=&#39;success&#39;
+  uid='de507b9d-c75b-465b-94f7-a7797b983f44'
+  exit_status='success'
   2025-11-25 10:47:31.736 -- 2025-11-25 10:47:48.607
   Streams:
     * label_start_motor
@@ -705,7 +706,7 @@ generator scan [&#39;de507b9d&#39;] (scan num: 1)
 </div>
 <div class="cell_output docutils container">
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/apstools/lib/python3.11/site-packages/databroker/intake_xarray_core/base.py:23: FutureWarning: The return type of `Dataset.dims` will be changed to return a set of dimension names in future, in order to be more consistent with `DataArray.dims`. To access a mapping from dimension names to lengths, please use `Dataset.sizes`.
-  &#39;dims&#39;: dict(self._ds.dims),
+  'dims': dict(self._ds.dims),
 </pre></div>
 </div>
 <div class="output text_html"><div><svg style="position: absolute; width: 0; height: 0; overflow: hidden">
@@ -1233,17 +1234,17 @@ Data variables:
 <span class="kn">from</span><span class="w"> </span><span class="nn">databroker._drivers.msgpack</span><span class="w"> </span><span class="kn">import</span> <span class="n">BlueskyMsgpackCatalog</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">warnings</span>
 
-<span class="n">DEMO_SPEC_FILE</span> <span class="o">=</span> <span class="s2">&quot;test_specdata.txt&quot;</span>
+<span class="n">DEMO_SPEC_FILE</span> <span class="o">=</span> <span class="s2">"test_specdata.txt"</span>
 
 
 <span class="k">def</span><span class="w"> </span><span class="nf">specfile_example</span><span class="p">(</span><span class="n">runs</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="n">DEMO_SPEC_FILE</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;write one or more headers (scans) to a SPEC data file&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">"""write one or more headers (scans) to a SPEC data file"""</span>
     <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">runs</span><span class="p">,</span> <span class="n">databroker</span><span class="o">.</span><span class="n">core</span><span class="o">.</span><span class="n">BlueskyRun</span><span class="p">):</span>
         <span class="n">runs</span> <span class="o">=</span> <span class="p">[</span><span class="n">runs</span><span class="p">]</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">runs</span><span class="p">,</span> <span class="p">(</span><span class="nb">list</span><span class="p">,</span> <span class="n">BlueskyMsgpackCatalog</span><span class="p">,</span> <span class="n">BlueskyMongoCatalog</span><span class="p">)):</span>
-        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;Must give run object or list of run objects.&quot;</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">"Must give run object or list of run objects."</span><span class="p">)</span>
     <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">runs</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Must provide one or more runs.&quot;</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">"Must provide one or more runs."</span><span class="p">)</span>
 
     <span class="n">specwriter</span> <span class="o">=</span> <span class="n">SpecWriterCallback2</span><span class="p">()</span>
     <span class="n">specwriter</span><span class="o">.</span><span class="n">spec_filename</span> <span class="o">=</span> <span class="n">filename</span>
@@ -1253,14 +1254,14 @@ Data variables:
         <span class="k">else</span><span class="p">:</span>
             <span class="n">run</span> <span class="o">=</span> <span class="n">uid</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">run</span><span class="p">,</span> <span class="n">databroker</span><span class="o">.</span><span class="n">core</span><span class="o">.</span><span class="n">BlueskyRun</span><span class="p">):</span>
-            <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Skipping </span><span class="si">{</span><span class="n">run</span><span class="si">=}</span><span class="s2">, it is not a BlueskyRun object.&quot;</span><span class="p">)</span>
+            <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Skipping </span><span class="si">{</span><span class="n">run</span><span class="si">=}</span><span class="s2">, it is not a BlueskyRun object."</span><span class="p">)</span>
             <span class="k">continue</span>
         <span class="c1"># to get the raw document stream, need the v1 interface</span>
         <span class="n">h</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">catalog_object</span><span class="o">.</span><span class="n">v1</span><span class="p">[</span><span class="n">run</span><span class="o">.</span><span class="n">name</span><span class="p">]</span>  <span class="c1"># header</span>
         <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">doc</span> <span class="ow">in</span> <span class="n">h</span><span class="o">.</span><span class="n">db</span><span class="o">.</span><span class="n">get_documents</span><span class="p">(</span><span class="n">h</span><span class="p">):</span>
             <span class="n">specwriter</span><span class="o">.</span><span class="n">receiver</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">doc</span><span class="p">)</span>
         <span class="c1"># lines = specwriter.prepare_scan_contents()</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Look at SPEC data file: </span><span class="si">{</span><span class="n">specwriter</span><span class="o">.</span><span class="n">spec_filename</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Look at SPEC data file: </span><span class="si">{</span><span class="n">specwriter</span><span class="o">.</span><span class="n">spec_filename</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1273,7 +1274,7 @@ Data variables:
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pathlib</span>
 
-<span class="n">spec1_dat</span> <span class="o">=</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">(</span><span class="s2">&quot;spec1.dat&quot;</span><span class="p">)</span>
+<span class="n">spec1_dat</span> <span class="o">=</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">(</span><span class="s2">"spec1.dat"</span><span class="p">)</span>
 <span class="k">if</span> <span class="n">spec1_dat</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>  <span class="c1"># re-write the file</span>
     <span class="n">spec1_dat</span><span class="o">.</span><span class="n">unlink</span><span class="p">()</span>  <span class="c1"># delete the existing file</span>
 
@@ -1304,23 +1305,23 @@ Data variables:
 <span class=" -Color -Color-C66">#o0 atth  chi  motor  mx  my  mz  omega  phi</span>
 <span class=" -Color -Color-C66">#o1 ttheta</span>
 
-<span class=" -Color -Color-C66">#S 1  scan(detectors=[&#39;det&#39;], num=41, args=&#39;[&#39;motor&#39;, -1.2, 1.2]&#39;, per_step=&#39;None&#39;)</span>
+<span class=" -Color -Color-C66">#S 1  scan(detectors=['det'], num=41, args='['motor', -1.2, 1.2]', per_step='None')</span>
 <span class=" -Color -Color-C66">#D Tue Nov 25 10:47:31 2025</span>
 <span class=" -Color -Color-C66">#C Tue Nov 25 10:47:36 2025.  uid = de507b9d-c75b-465b-94f7-a7797b983f44</span>
 <span class=" -Color -Color-C66">#P0 0 0 1.2 0 0 0 0 0</span>
 <span class=" -Color -Color-C66">#P1 0</span>
-<span class=" -Color -Color-C66">#MD versions = {&#39;ophyd&#39;: &#39;1.11.0&#39;, &#39;bluesky&#39;: &#39;1.14.6&#39;}</span>
+<span class=" -Color -Color-C66">#MD versions = {'ophyd': '1.11.0', 'bluesky': '1.14.6'}</span>
 <span class=" -Color -Color-C66">#MD plan_type = generator</span>
 <span class=" -Color -Color-C66">#MD plan_name = scan</span>
-<span class=" -Color -Color-C66">#MD detectors = [&#39;det&#39;]</span>
-<span class=" -Color -Color-C66">#MD motors = [&#39;motor&#39;]</span>
+<span class=" -Color -Color-C66">#MD detectors = ['det']</span>
+<span class=" -Color -Color-C66">#MD motors = ['motor']</span>
 <span class=" -Color -Color-C66">#MD num_points = 41</span>
 <span class=" -Color -Color-C66">#MD num_intervals = 40</span>
-<span class=" -Color -Color-C66">#MD plan_args = {&#39;detectors&#39;: [&quot;EpicsSignal(read_pv=&#39;gp:userCalc1.VAL&#39;, name=&#39;det&#39;, timestamp=1764088504.230701, tolerance=1e-05, auto_monitor=False, string=False, write_pv=&#39;gp:userCalc1.VAL&#39;, limits=False, put_complete=False)&quot;], &#39;num&#39;: 41, &#39;args&#39;: [&quot;EpicsMotor(prefix=&#39;gp:m1&#39;, name=&#39;motor&#39;, settle_time=0.0, timeout=None, read_attrs=[&#39;user_readback&#39;, &#39;user_setpoint&#39;], configuration_attrs=[&#39;user_offset&#39;, &#39;user_offset_dir&#39;, &#39;velocity&#39;, &#39;acceleration&#39;, &#39;motor_egu&#39;])&quot;, -1.2, 1.2], &#39;per_step&#39;: &#39;None&#39;}</span>
-<span class=" -Color -Color-C66">#MD hints = {&#39;dimensions&#39;: [[[&#39;motor&#39;], &#39;primary&#39;]]}</span>
+<span class=" -Color -Color-C66">#MD plan_args = {'detectors': ["EpicsSignal(read_pv='gp:userCalc1.VAL', name='det', timestamp=1764088504.230701, tolerance=1e-05, auto_monitor=False, string=False, write_pv='gp:userCalc1.VAL', limits=False, put_complete=False)"], 'num': 41, 'args': ["EpicsMotor(prefix='gp:m1', name='motor', settle_time=0.0, timeout=None, read_attrs=['user_readback', 'user_setpoint'], configuration_attrs=['user_offset', 'user_offset_dir', 'velocity', 'acceleration', 'motor_egu'])", -1.2, 1.2], 'per_step': 'None'}</span>
+<span class=" -Color -Color-C66">#MD hints = {'dimensions': [[['motor'], 'primary']]}</span>
 <span class=" -Color -Color-C66">#MD plan_pattern = inner_product</span>
 <span class=" -Color -Color-C66">#MD plan_pattern_module = bluesky.plan_patterns</span>
-<span class=" -Color -Color-C66">#MD plan_pattern_args = {&#39;num&#39;: 41, &#39;args&#39;: [&quot;EpicsMotor(prefix=&#39;gp:m1&#39;, name=&#39;motor&#39;, settle_time=0.0, timeout=None, read_attrs=[&#39;user_readback&#39;, &#39;user_setpoint&#39;], configuration_attrs=[&#39;user_offset&#39;, &#39;user_offset_dir&#39;, &#39;velocity&#39;, &#39;acceleration&#39;, &#39;motor_egu&#39;])&quot;, -1.2, 1.2]}</span>
+<span class=" -Color -Color-C66">#MD plan_pattern_args = {'num': 41, 'args': ["EpicsMotor(prefix='gp:m1', name='motor', settle_time=0.0, timeout=None, read_attrs=['user_readback', 'user_setpoint'], configuration_attrs=['user_offset', 'user_offset_dir', 'velocity', 'acceleration', 'motor_egu'])", -1.2, 1.2]}</span>
 <span class=" -Color -Color-C66">#N 5</span>
 <span class=" -Color -Color-C66">#L motor  Epoch  Epoch_float  motor_user_setpoint  det</span>
 -<span class=" -Color -Color-Green">1.2</span> <span class=" -Color -Color-Green">5</span> <span class=" -Color -Color-Green">4.798788785934</span> -<span class=" -Color -Color-Green">1.2</span> <span class=" -Color -Color-Green">4.697096076314e-70</span>
@@ -1378,7 +1379,7 @@ Data variables:
 <p>The <code class="docutils literal notranslate"><span class="pre">cat</span></code> object allows us to access scans by UUID (or any shorter version that remains unique in the database).  We show an example but have commented it out since those runs do not exist in our temporary databroker catalog.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># specfile_example(cat[&quot;37c188c0&quot;], filename=&quot;spec3.dat&quot;)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># specfile_example(cat["37c188c0"], filename="spec3.dat")</span>
 </pre></div>
 </div>
 </div>
@@ -1389,8 +1390,8 @@ Data variables:
 <p>Suppose we have a list of scans where we know the UID of each one, we can build a list of headers and write a SPEC data file with that list.  Here, we have such a list of tuning scans.  We show an example but have commented it out since those runs do not exist in our temporary databroker catalog.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># runs = [cat[uid] for uid in &quot;957d83c c354fe37-e39f 42c&quot;.split()]</span>
-<span class="c1"># specfile_example(runs, filename=&quot;spec_tunes.dat&quot;)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># runs = [cat[uid] for uid in "957d83c c354fe37-e39f 42c".split()]</span>
+<span class="c1"># specfile_example(runs, filename="spec_tunes.dat")</span>
 </pre></div>
 </div>
 </div>
@@ -1405,20 +1406,20 @@ Data variables:
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">databroker.queries</span><span class="w"> </span><span class="kn">import</span> <span class="n">TimeRange</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">datetime</span>
 
-<span class="n">test_specdata_txt</span> <span class="o">=</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">(</span><span class="s2">&quot;test_specdata.txt&quot;</span><span class="p">)</span>
+<span class="n">test_specdata_txt</span> <span class="o">=</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">(</span><span class="s2">"test_specdata.txt"</span><span class="p">)</span>
 <span class="k">if</span> <span class="n">test_specdata_txt</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>  <span class="c1"># will re-write the file</span>
     <span class="n">test_specdata_txt</span><span class="o">.</span><span class="n">unlink</span><span class="p">()</span>
 
 <span class="n">query</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">query</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">TimeRange</span><span class="p">(</span><span class="n">since</span><span class="o">=</span><span class="s2">&quot;2019-02-19 17:00&quot;</span><span class="p">))</span>
-<span class="n">query</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">TimeRange</span><span class="p">(</span><span class="n">until</span><span class="o">=</span><span class="s2">&quot;2032-02-19 17:11:30&quot;</span><span class="p">))</span>
-<span class="n">query</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="nb">dict</span><span class="p">(</span><span class="n">plan_name</span><span class="o">=</span><span class="s2">&quot;scan&quot;</span><span class="p">))</span>
+<span class="n">query</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">TimeRange</span><span class="p">(</span><span class="n">since</span><span class="o">=</span><span class="s2">"2019-02-19 17:00"</span><span class="p">))</span>
+<span class="n">query</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">TimeRange</span><span class="p">(</span><span class="n">until</span><span class="o">=</span><span class="s2">"2032-02-19 17:11:30"</span><span class="p">))</span>
+<span class="n">query</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="nb">dict</span><span class="p">(</span><span class="n">plan_name</span><span class="o">=</span><span class="s2">"scan"</span><span class="p">))</span>
 
 <span class="n">runs</span> <span class="o">=</span> <span class="n">cat</span><span class="o">.</span><span class="n">v2</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">uid</span> <span class="ow">in</span> <span class="n">runs</span><span class="p">:</span>
     <span class="n">run</span> <span class="o">=</span> <span class="n">runs</span><span class="p">[</span><span class="n">uid</span><span class="p">]</span>
-    <span class="n">start_time</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">][</span><span class="s2">&quot;time&quot;</span><span class="p">]</span>
-    <span class="n">isodate</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">fromtimestamp</span><span class="p">(</span><span class="n">start_time</span><span class="p">)</span><span class="o">.</span><span class="n">isoformat</span><span class="p">(</span><span class="n">sep</span><span class="o">=</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">start_time</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">"start"</span><span class="p">][</span><span class="s2">"time"</span><span class="p">]</span>
+    <span class="n">isodate</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">fromtimestamp</span><span class="p">(</span><span class="n">start_time</span><span class="p">)</span><span class="o">.</span><span class="n">isoformat</span><span class="p">(</span><span class="n">sep</span><span class="o">=</span><span class="s2">" "</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">uid</span><span class="p">[:</span><span class="mi">8</span><span class="p">],</span> <span class="n">isodate</span><span class="p">)</span>
 <span class="n">specfile_example</span><span class="p">(</span><span class="n">runs</span><span class="p">,</span> <span class="n">test_specdata_txt</span><span class="p">)</span>
 </pre></div>
@@ -1447,23 +1448,23 @@ Look at SPEC data file: test_specdata.txt
 <span class=" -Color -Color-C66">#o0 atth  chi  motor  mx  my  mz  omega  phi</span>
 <span class=" -Color -Color-C66">#o1 ttheta</span>
 
-<span class=" -Color -Color-C66">#S 1  scan(detectors=[&#39;det&#39;], num=41, args=&#39;[&#39;motor&#39;, -1.2, 1.2]&#39;, per_step=&#39;None&#39;)</span>
+<span class=" -Color -Color-C66">#S 1  scan(detectors=['det'], num=41, args='['motor', -1.2, 1.2]', per_step='None')</span>
 <span class=" -Color -Color-C66">#D Tue Nov 25 10:47:31 2025</span>
 <span class=" -Color -Color-C66">#C Tue Nov 25 10:47:36 2025.  uid = de507b9d-c75b-465b-94f7-a7797b983f44</span>
 <span class=" -Color -Color-C66">#P0 0 0 1.2 0 0 0 0 0</span>
 <span class=" -Color -Color-C66">#P1 0</span>
-<span class=" -Color -Color-C66">#MD versions = {&#39;ophyd&#39;: &#39;1.11.0&#39;, &#39;bluesky&#39;: &#39;1.14.6&#39;}</span>
+<span class=" -Color -Color-C66">#MD versions = {'ophyd': '1.11.0', 'bluesky': '1.14.6'}</span>
 <span class=" -Color -Color-C66">#MD plan_type = generator</span>
 <span class=" -Color -Color-C66">#MD plan_name = scan</span>
-<span class=" -Color -Color-C66">#MD detectors = [&#39;det&#39;]</span>
-<span class=" -Color -Color-C66">#MD motors = [&#39;motor&#39;]</span>
+<span class=" -Color -Color-C66">#MD detectors = ['det']</span>
+<span class=" -Color -Color-C66">#MD motors = ['motor']</span>
 <span class=" -Color -Color-C66">#MD num_points = 41</span>
 <span class=" -Color -Color-C66">#MD num_intervals = 40</span>
-<span class=" -Color -Color-C66">#MD plan_args = {&#39;detectors&#39;: [&quot;EpicsSignal(read_pv=&#39;gp:userCalc1.VAL&#39;, name=&#39;det&#39;, timestamp=1764088504.230701, tolerance=1e-05, auto_monitor=False, string=False, write_pv=&#39;gp:userCalc1.VAL&#39;, limits=False, put_complete=False)&quot;], &#39;num&#39;: 41, &#39;args&#39;: [&quot;EpicsMotor(prefix=&#39;gp:m1&#39;, name=&#39;motor&#39;, settle_time=0.0, timeout=None, read_attrs=[&#39;user_readback&#39;, &#39;user_setpoint&#39;], configuration_attrs=[&#39;user_offset&#39;, &#39;user_offset_dir&#39;, &#39;velocity&#39;, &#39;acceleration&#39;, &#39;motor_egu&#39;])&quot;, -1.2, 1.2], &#39;per_step&#39;: &#39;None&#39;}</span>
-<span class=" -Color -Color-C66">#MD hints = {&#39;dimensions&#39;: [[[&#39;motor&#39;], &#39;primary&#39;]]}</span>
+<span class=" -Color -Color-C66">#MD plan_args = {'detectors': ["EpicsSignal(read_pv='gp:userCalc1.VAL', name='det', timestamp=1764088504.230701, tolerance=1e-05, auto_monitor=False, string=False, write_pv='gp:userCalc1.VAL', limits=False, put_complete=False)"], 'num': 41, 'args': ["EpicsMotor(prefix='gp:m1', name='motor', settle_time=0.0, timeout=None, read_attrs=['user_readback', 'user_setpoint'], configuration_attrs=['user_offset', 'user_offset_dir', 'velocity', 'acceleration', 'motor_egu'])", -1.2, 1.2], 'per_step': 'None'}</span>
+<span class=" -Color -Color-C66">#MD hints = {'dimensions': [[['motor'], 'primary']]}</span>
 <span class=" -Color -Color-C66">#MD plan_pattern = inner_product</span>
 <span class=" -Color -Color-C66">#MD plan_pattern_module = bluesky.plan_patterns</span>
-<span class=" -Color -Color-C66">#MD plan_pattern_args = {&#39;num&#39;: 41, &#39;args&#39;: [&quot;EpicsMotor(prefix=&#39;gp:m1&#39;, name=&#39;motor&#39;, settle_time=0.0, timeout=None, read_attrs=[&#39;user_readback&#39;, &#39;user_setpoint&#39;], configuration_attrs=[&#39;user_offset&#39;, &#39;user_offset_dir&#39;, &#39;velocity&#39;, &#39;acceleration&#39;, &#39;motor_egu&#39;])&quot;, -1.2, 1.2]}</span>
+<span class=" -Color -Color-C66">#MD plan_pattern_args = {'num': 41, 'args': ["EpicsMotor(prefix='gp:m1', name='motor', settle_time=0.0, timeout=None, read_attrs=['user_readback', 'user_setpoint'], configuration_attrs=['user_offset', 'user_offset_dir', 'velocity', 'acceleration', 'motor_egu'])", -1.2, 1.2]}</span>
 <span class=" -Color -Color-C66">#N 5</span>
 <span class=" -Color -Color-C66">#L motor  Epoch  Epoch_float  motor_user_setpoint  det</span>
 -<span class=" -Color -Color-Green">1.2</span> <span class=" -Color -Color-Green">5</span> <span class=" -Color -Color-Green">4.798788785934</span> -<span class=" -Color -Color-Green">1.2</span> <span class=" -Color -Color-Green">4.697096076314e-70</span>
@@ -1596,8 +1597,8 @@ Look at SPEC data file: test_specdata.txt
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9"></script>
-<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9"></script>
+  <script defer src="../_static/scripts/bootstrap.js?digest=18bd87630a240e9c25be"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=18bd87630a240e9c25be"></script>
 
   <footer class="bd-footer">
 <div class="bd-footer__inner bd-page-width">
@@ -1617,8 +1618,7 @@ Look at SPEC data file: test_specdata.txt
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
-    <br/>
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.2.0.
   </p>
 </div>
       
@@ -1631,7 +1631,7 @@ Look at SPEC data file: test_specdata.txt
         <div class="footer-item">
 <p class="theme-version">
   <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.20.0.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.23.0.
 </p></div>
       
     </div>

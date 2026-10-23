@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 
@@ -26,8 +25,8 @@
   </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../../_static/styles/theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
-<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
+  <link href="../../../_static/styles/theme.css?digest=18bd87630a240e9c25be" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=18bd87630a240e9c25be" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css?v=4ae1632d" />
@@ -36,19 +35,19 @@
     <link rel="stylesheet" type="text/css" href="../../../_static/css/custom.css?v=fb1a6b5d" />
   
   <!-- So that users can add custom icons -->
-  <script defer src="../../../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
+  <script defer src="../../../_static/scripts/fontawesome.js?digest=18bd87630a240e9c25be"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9" />
-<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9" />
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=18bd87630a240e9c25be" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=18bd87630a240e9c25be" />
 
-    <script src="../../../_static/documentation_options.js?v=ccf66f66"></script>
+    <script src="../../../_static/documentation_options.js?v=ffe3ab98"></script>
     <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../../../_static/design-tabs.js?v=f930bc37"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '_modules/apstools/devices/measComp_usb_ctr_support';</script>
     <script>
-        DOCUMENTATION_OPTIONS.theme_version = '0.20.0';
+        DOCUMENTATION_OPTIONS.theme_version = '0.23.0';
         DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://raw.githubusercontent.com/BCDA-APS/apstools/main/docs/source/_static/switcher.json';
         DOCUMENTATION_OPTIONS.theme_switcher_version_match = 'dev';
         DOCUMENTATION_OPTIONS.show_version_warning_banner =
@@ -58,6 +57,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="color-scheme" content="light dark"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="0.1" />
   
@@ -107,7 +107,7 @@
   
     <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
 <div class="bd-header__inner bd-page-width">
-  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+  <button type="button" class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
     <span class="fa-solid fa-bars"></span>
   </button>
   
@@ -213,7 +213,7 @@
         <div class="navbar-item navbar-persistent--container">
           
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button type="button" class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
  <i class="fa-solid fa-magnifying-glass"></i>
  <span class="search-button__default-text">Search</span>
  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -224,15 +224,15 @@
         <div class="navbar-item">
 
 <div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+  <button type="button" class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
     <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
     <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
     <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
   </button>
   <ul class="dropdown-menu dropdown-menu-end">
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
   </ul>
 </div></div>
       
@@ -258,7 +258,7 @@
   
     <div class="navbar-persistent--mobile">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button type="button" class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
  <i class="fa-solid fa-magnifying-glass"></i>
  <span class="search-button__default-text">Search</span>
  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -349,15 +349,15 @@
           <div class="navbar-item">
 
 <div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+  <button type="button" class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
     <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
     <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
     <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
   </button>
   <ul class="dropdown-menu dropdown-menu-end">
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
   </ul>
 </div></div>
         
@@ -436,7 +436,7 @@
                 <article class="bd-article">
                   
   <h1>Source code for apstools.devices.measComp_usb_ctr_support</h1><div class="highlight"><pre>
-<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span></span><span class="sd">"""</span>
 <span class="sd">Measurement Computing USB-CTR 8-Channel Scaler</span>
 <span class="sd">++++++++++++++++++++++++++++++++++++++++++++++++++</span>
 
@@ -462,7 +462,7 @@
 
 <span class="sd">   ~MeasCompCtrDeviceCounterChannel</span>
 <span class="sd">   ~MeasCompCtrDevicePulseGenChannel</span>
-<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">"""</span>
 
 <span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
 
@@ -480,154 +480,154 @@
 
 <div class="viewcode-block" id="MeasCompCtrMcs">
 <a class="viewcode-back" href="../../../api/autoapi/apstools/devices/measComp_usb_ctr_support/index.html#apstools.devices.measComp_usb_ctr_support.MeasCompCtrMcs">[docs]</a>
-<span class="nd">@versionadded</span><span class="p">(</span><span class="n">version</span><span class="o">=</span><span class="s2">&quot;1.6.18&quot;</span><span class="p">)</span>
+<span class="nd">@versionadded</span><span class="p">(</span><span class="n">version</span><span class="o">=</span><span class="s2">"1.6.18"</span><span class="p">)</span>
 <span class="k">class</span><span class="w"> </span><span class="nc">MeasCompCtrMcs</span><span class="p">(</span><span class="n">Device</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Measurement Computing USB CTR08 Multi-Channel Scaler Controls.&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">"""Measurement Computing USB CTR08 Multi-Channel Scaler Controls."""</span>
 
     <span class="c1"># https://github.com/epics-modules/measComp/blob/master/measCompApp/Db/measCompMCS.template</span>
-    <span class="n">absolute_timebase_waveform</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;AbsTimeWF&quot;</span><span class="p">)</span>
-    <span class="n">acquiring</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Acquiring&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">channel_advance</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;ChannelAdvance&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">client_wait</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;ClientWait&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">current_channel</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;CurrentChannel&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">do_read_all</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;DoReadAll&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">dwell</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Dwell&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">elapsed_real</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;ElapsedReal&quot;</span><span class="p">)</span>
-    <span class="n">enable_client_wait</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;EnableClientWait&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">erase_all</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;EraseAll&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">erase_start</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;EraseStart&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">hardware_acquiring</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;HardwareAcquiring&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">max_channels</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;MaxChannels&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">mcs_counter_1_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;MCSCounter1Enable&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">mcs_counter_2_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;MCSCounter2Enable&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">mcs_counter_3_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;MCSCounter3Enable&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">mcs_counter_4_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;MCSCounter4Enable&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">mcs_counter_5_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;MCSCounter5Enable&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">mcs_counter_6_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;MCSCounter6Enable&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">mcs_counter_7_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;MCSCounter7Enable&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">mcs_counter_8_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;MCSCounter8Enable&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">mcs_counter_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;MCSCounterEnable&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">mcs_dio_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;MCSDIOEnable&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">model</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;Model&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="n">n_use_all</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;NuseAll&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">point_0_action</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Point0Action&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">prescale</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Prescale&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">prescale_counter</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;PrescaleCounter&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">preset_real</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;PresetReal&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">read_all</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;ReadAll&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">read_all_once</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;ReadAllOnce&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">set_acquiring</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;SetAcquiring&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">set_client_wait</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;SetClientWait&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">snl_connected</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;SNL_Connected&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">start_all</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;StartAll&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">stop_all</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;StopAll&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">trigger_mode</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;TrigMode&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">absolute_timebase_waveform</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"AbsTimeWF"</span><span class="p">)</span>
+    <span class="n">acquiring</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Acquiring"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">channel_advance</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"ChannelAdvance"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">client_wait</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"ClientWait"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">current_channel</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"CurrentChannel"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">do_read_all</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"DoReadAll"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">dwell</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Dwell"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">elapsed_real</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"ElapsedReal"</span><span class="p">)</span>
+    <span class="n">enable_client_wait</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"EnableClientWait"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">erase_all</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"EraseAll"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">erase_start</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"EraseStart"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">hardware_acquiring</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"HardwareAcquiring"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">max_channels</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"MaxChannels"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">mcs_counter_1_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"MCSCounter1Enable"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">mcs_counter_2_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"MCSCounter2Enable"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">mcs_counter_3_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"MCSCounter3Enable"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">mcs_counter_4_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"MCSCounter4Enable"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">mcs_counter_5_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"MCSCounter5Enable"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">mcs_counter_6_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"MCSCounter6Enable"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">mcs_counter_7_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"MCSCounter7Enable"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">mcs_counter_8_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"MCSCounter8Enable"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">mcs_counter_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"MCSCounterEnable"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">mcs_dio_enable</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"MCSDIOEnable"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">model</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"Model"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">n_use_all</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"NuseAll"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">point_0_action</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Point0Action"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">prescale</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Prescale"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">prescale_counter</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"PrescaleCounter"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">preset_real</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"PresetReal"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">read_all</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"ReadAll"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">read_all_once</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"ReadAllOnce"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">set_acquiring</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"SetAcquiring"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">set_client_wait</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"SetClientWait"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">snl_connected</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"SNL_Connected"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">start_all</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"StartAll"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">stop_all</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"StopAll"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">trigger_mode</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"TrigMode"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-    <span class="n">mca1</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;mca1&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;MCA&quot;</span><span class="p">])</span>
-    <span class="n">mca2</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;mca2&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;MCA&quot;</span><span class="p">])</span>
-    <span class="n">mca3</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;mca3&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;MCA&quot;</span><span class="p">])</span>
-    <span class="n">mca4</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;mca4&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;MCA&quot;</span><span class="p">])</span>
-    <span class="n">mca5</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;mca5&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;MCA&quot;</span><span class="p">])</span>
-    <span class="n">mca6</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;mca6&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;MCA&quot;</span><span class="p">])</span>
-    <span class="n">mca7</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;mca7&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;MCA&quot;</span><span class="p">])</span>
-    <span class="n">mca8</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;mca8&quot;</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;MCA&quot;</span><span class="p">])</span></div>
+    <span class="n">mca1</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"mca1"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"MCA"</span><span class="p">])</span>
+    <span class="n">mca2</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"mca2"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"MCA"</span><span class="p">])</span>
+    <span class="n">mca3</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"mca3"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"MCA"</span><span class="p">])</span>
+    <span class="n">mca4</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"mca4"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"MCA"</span><span class="p">])</span>
+    <span class="n">mca5</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"mca5"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"MCA"</span><span class="p">])</span>
+    <span class="n">mca6</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"mca6"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"MCA"</span><span class="p">])</span>
+    <span class="n">mca7</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"mca7"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"MCA"</span><span class="p">])</span>
+    <span class="n">mca8</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"mca8"</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">"MCA"</span><span class="p">])</span></div>
 
 
 
 <div class="viewcode-block" id="MeasCompCtrDeviceCounterChannel">
 <a class="viewcode-back" href="../../../api/autoapi/apstools/devices/measComp_usb_ctr_support/index.html#apstools.devices.measComp_usb_ctr_support.MeasCompCtrDeviceCounterChannel">[docs]</a>
-<span class="nd">@versionadded</span><span class="p">(</span><span class="n">version</span><span class="o">=</span><span class="s2">&quot;1.6.18&quot;</span><span class="p">)</span>
+<span class="nd">@versionadded</span><span class="p">(</span><span class="n">version</span><span class="o">=</span><span class="s2">"1.6.18"</span><span class="p">)</span>
 <span class="k">class</span><span class="w"> </span><span class="nc">MeasCompCtrDeviceCounterChannel</span><span class="p">(</span><span class="n">Device</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Measurement Computing USB CTR08 Pulse Counter channel.&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">"""Measurement Computing USB CTR08 Pulse Counter channel."""</span>
 
-    <span class="n">counts</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;Counts&quot;</span><span class="p">)</span>
-    <span class="n">reset</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Reset&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span></div>
+    <span class="n">counts</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"Counts"</span><span class="p">)</span>
+    <span class="n">reset</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Reset"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span></div>
 
 
 
 <div class="viewcode-block" id="MeasCompCtrDevicePulseGenChannel">
 <a class="viewcode-back" href="../../../api/autoapi/apstools/devices/measComp_usb_ctr_support/index.html#apstools.devices.measComp_usb_ctr_support.MeasCompCtrDevicePulseGenChannel">[docs]</a>
-<span class="nd">@versionadded</span><span class="p">(</span><span class="n">version</span><span class="o">=</span><span class="s2">&quot;1.6.18&quot;</span><span class="p">)</span>
+<span class="nd">@versionadded</span><span class="p">(</span><span class="n">version</span><span class="o">=</span><span class="s2">"1.6.18"</span><span class="p">)</span>
 <span class="k">class</span><span class="w"> </span><span class="nc">MeasCompCtrDevicePulseGenChannel</span><span class="p">(</span><span class="n">Device</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Measurement Computing USB CTR08 Pulse Generator channel.&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">"""Measurement Computing USB CTR08 Pulse Generator channel."""</span>
 
     <span class="c1"># Do not connect: (calcout) CalcDutyCycle</span>
     <span class="c1"># Do not connect: (calcout) CalcFrequency</span>
     <span class="c1"># Do not connect: (calcout) CalcPeriod</span>
     <span class="c1"># Do not connect: (calcout) CalcWidth</span>
-    <span class="n">count</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Count&quot;</span><span class="p">)</span>
-    <span class="n">delay</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Delay&quot;</span><span class="p">)</span>
-    <span class="n">duty_cycle</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;DutyCycle&quot;</span><span class="p">)</span>
-    <span class="n">frequency</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Frequency&quot;</span><span class="p">)</span>
-    <span class="n">idle_state</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;IdleState&quot;</span><span class="p">)</span>
-    <span class="n">period</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Period&quot;</span><span class="p">)</span>
-    <span class="n">run</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Run&quot;</span><span class="p">)</span>
-    <span class="n">width</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Width&quot;</span><span class="p">)</span></div>
+    <span class="n">count</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Count"</span><span class="p">)</span>
+    <span class="n">delay</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Delay"</span><span class="p">)</span>
+    <span class="n">duty_cycle</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"DutyCycle"</span><span class="p">)</span>
+    <span class="n">frequency</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Frequency"</span><span class="p">)</span>
+    <span class="n">idle_state</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"IdleState"</span><span class="p">)</span>
+    <span class="n">period</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Period"</span><span class="p">)</span>
+    <span class="n">run</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Run"</span><span class="p">)</span>
+    <span class="n">width</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Width"</span><span class="p">)</span></div>
 
 
 
 <div class="viewcode-block" id="MeasCompCtr">
 <a class="viewcode-back" href="../../../api/autoapi/apstools/devices/measComp_usb_ctr_support/index.html#apstools.devices.measComp_usb_ctr_support.MeasCompCtr">[docs]</a>
-<span class="nd">@versionadded</span><span class="p">(</span><span class="n">version</span><span class="o">=</span><span class="s2">&quot;1.6.18&quot;</span><span class="p">)</span>
+<span class="nd">@versionadded</span><span class="p">(</span><span class="n">version</span><span class="o">=</span><span class="s2">"1.6.18"</span><span class="p">)</span>
 <span class="k">class</span><span class="w"> </span><span class="nc">MeasCompCtr</span><span class="p">(</span><span class="n">Device</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Measurement Computing USB CTR08 high-speed counter/timer.&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">"""Measurement Computing USB CTR08 high-speed counter/timer."""</span>
 
     <span class="c1"># https://github.com/epics-modules/measComp/blob/master/measCompApp/Db/measCompDevice.template</span>
-    <span class="n">model_name</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;ModelName&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="n">model_number</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;ModelNumber&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">firmware_version</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;FirmwareVersion&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="n">unique_id</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;UniqueID&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="n">ul_version</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;ULVersion&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="n">driver_version</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;DriverVersion&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="n">poll_time_ms</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;PollTimeMS&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">poll_sleep_ms</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;PollSleepMS&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">last_error_message</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;LastErrorMessage&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">model_name</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"ModelName"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">model_number</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"ModelNumber"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">firmware_version</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"FirmwareVersion"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">unique_id</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"UniqueID"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">ul_version</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"ULVersion"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">driver_version</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"DriverVersion"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">poll_time_ms</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"PollTimeMS"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">poll_sleep_ms</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"PollSleepMS"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">last_error_message</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"LastErrorMessage"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
     <span class="c1"># https://github.com/epics-modules/measComp/blob/master/measCompApp/Db/USBCTR.substitutions</span>
-    <span class="n">long_in</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;Li&quot;</span><span class="p">)</span>
+    <span class="n">long_in</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"Li"</span><span class="p">)</span>
 
-    <span class="n">binary_in_1</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;Bi1&quot;</span><span class="p">)</span>
-    <span class="n">binary_in_2</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;Bi2&quot;</span><span class="p">)</span>
-    <span class="n">binary_in_3</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;Bi3&quot;</span><span class="p">)</span>
-    <span class="n">binary_in_4</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;Bi4&quot;</span><span class="p">)</span>
-    <span class="n">binary_in_5</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;Bi5&quot;</span><span class="p">)</span>
-    <span class="n">binary_in_6</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;Bi6&quot;</span><span class="p">)</span>
-    <span class="n">binary_in_7</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;Bi7&quot;</span><span class="p">)</span>
-    <span class="n">binary_in_8</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;Bi8&quot;</span><span class="p">)</span>
+    <span class="n">binary_in_1</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"Bi1"</span><span class="p">)</span>
+    <span class="n">binary_in_2</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"Bi2"</span><span class="p">)</span>
+    <span class="n">binary_in_3</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"Bi3"</span><span class="p">)</span>
+    <span class="n">binary_in_4</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"Bi4"</span><span class="p">)</span>
+    <span class="n">binary_in_5</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"Bi5"</span><span class="p">)</span>
+    <span class="n">binary_in_6</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"Bi6"</span><span class="p">)</span>
+    <span class="n">binary_in_7</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"Bi7"</span><span class="p">)</span>
+    <span class="n">binary_in_8</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"Bi8"</span><span class="p">)</span>
 
-    <span class="n">long_out</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Lo&quot;</span><span class="p">)</span>
+    <span class="n">long_out</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Lo"</span><span class="p">)</span>
 
-    <span class="n">binary_out_1</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Bo1&quot;</span><span class="p">)</span>
-    <span class="n">binary_out_2</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Bo2&quot;</span><span class="p">)</span>
-    <span class="n">binary_out_3</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Bo3&quot;</span><span class="p">)</span>
-    <span class="n">binary_out_4</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Bo4&quot;</span><span class="p">)</span>
-    <span class="n">binary_out_5</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Bo5&quot;</span><span class="p">)</span>
-    <span class="n">binary_out_6</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Bo6&quot;</span><span class="p">)</span>
-    <span class="n">binary_out_7</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Bo7&quot;</span><span class="p">)</span>
-    <span class="n">binary_out_8</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;Bo8&quot;</span><span class="p">)</span>
+    <span class="n">binary_out_1</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Bo1"</span><span class="p">)</span>
+    <span class="n">binary_out_2</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Bo2"</span><span class="p">)</span>
+    <span class="n">binary_out_3</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Bo3"</span><span class="p">)</span>
+    <span class="n">binary_out_4</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Bo4"</span><span class="p">)</span>
+    <span class="n">binary_out_5</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Bo5"</span><span class="p">)</span>
+    <span class="n">binary_out_6</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Bo6"</span><span class="p">)</span>
+    <span class="n">binary_out_7</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Bo7"</span><span class="p">)</span>
+    <span class="n">binary_out_8</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"Bo8"</span><span class="p">)</span>
 
-    <span class="n">binary_direction_1</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Bd1&quot;</span><span class="p">)</span>
-    <span class="n">binary_direction_2</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Bd2&quot;</span><span class="p">)</span>
-    <span class="n">binary_direction_3</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Bd3&quot;</span><span class="p">)</span>
-    <span class="n">binary_direction_4</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Bd4&quot;</span><span class="p">)</span>
-    <span class="n">binary_direction_5</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Bd5&quot;</span><span class="p">)</span>
-    <span class="n">binary_direction_6</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Bd6&quot;</span><span class="p">)</span>
-    <span class="n">binary_direction_7</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Bd7&quot;</span><span class="p">)</span>
-    <span class="n">binary_direction_8</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;Bd8&quot;</span><span class="p">)</span>
+    <span class="n">binary_direction_1</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Bd1"</span><span class="p">)</span>
+    <span class="n">binary_direction_2</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Bd2"</span><span class="p">)</span>
+    <span class="n">binary_direction_3</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Bd3"</span><span class="p">)</span>
+    <span class="n">binary_direction_4</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Bd4"</span><span class="p">)</span>
+    <span class="n">binary_direction_5</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Bd5"</span><span class="p">)</span>
+    <span class="n">binary_direction_6</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Bd6"</span><span class="p">)</span>
+    <span class="n">binary_direction_7</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Bd7"</span><span class="p">)</span>
+    <span class="n">binary_direction_8</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"Bd8"</span><span class="p">)</span>
 
-    <span class="n">pulse_gen_1</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDevicePulseGenChannel</span><span class="p">,</span> <span class="s2">&quot;PulseGen1&quot;</span><span class="p">)</span>
-    <span class="n">pulse_gen_2</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDevicePulseGenChannel</span><span class="p">,</span> <span class="s2">&quot;PulseGen2&quot;</span><span class="p">)</span>
-    <span class="n">pulse_gen_3</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDevicePulseGenChannel</span><span class="p">,</span> <span class="s2">&quot;PulseGen3&quot;</span><span class="p">)</span>
-    <span class="n">pulse_gen_4</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDevicePulseGenChannel</span><span class="p">,</span> <span class="s2">&quot;PulseGen4&quot;</span><span class="p">)</span>
+    <span class="n">pulse_gen_1</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDevicePulseGenChannel</span><span class="p">,</span> <span class="s2">"PulseGen1"</span><span class="p">)</span>
+    <span class="n">pulse_gen_2</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDevicePulseGenChannel</span><span class="p">,</span> <span class="s2">"PulseGen2"</span><span class="p">)</span>
+    <span class="n">pulse_gen_3</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDevicePulseGenChannel</span><span class="p">,</span> <span class="s2">"PulseGen3"</span><span class="p">)</span>
+    <span class="n">pulse_gen_4</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDevicePulseGenChannel</span><span class="p">,</span> <span class="s2">"PulseGen4"</span><span class="p">)</span>
 
-    <span class="n">counter_1</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">&quot;Counter1&quot;</span><span class="p">)</span>
-    <span class="n">counter_2</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">&quot;Counter2&quot;</span><span class="p">)</span>
-    <span class="n">counter_3</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">&quot;Counter3&quot;</span><span class="p">)</span>
-    <span class="n">counter_4</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">&quot;Counter4&quot;</span><span class="p">)</span>
-    <span class="n">counter_5</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">&quot;Counter5&quot;</span><span class="p">)</span>
-    <span class="n">counter_6</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">&quot;Counter6&quot;</span><span class="p">)</span>
-    <span class="n">counter_7</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">&quot;Counter7&quot;</span><span class="p">)</span>
-    <span class="n">counter_8</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">&quot;Counter8&quot;</span><span class="p">)</span></div>
+    <span class="n">counter_1</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">"Counter1"</span><span class="p">)</span>
+    <span class="n">counter_2</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">"Counter2"</span><span class="p">)</span>
+    <span class="n">counter_3</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">"Counter3"</span><span class="p">)</span>
+    <span class="n">counter_4</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">"Counter4"</span><span class="p">)</span>
+    <span class="n">counter_5</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">"Counter5"</span><span class="p">)</span>
+    <span class="n">counter_6</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">"Counter6"</span><span class="p">)</span>
+    <span class="n">counter_7</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">"Counter7"</span><span class="p">)</span>
+    <span class="n">counter_8</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">MeasCompCtrDeviceCounterChannel</span><span class="p">,</span> <span class="s2">"Counter8"</span><span class="p">)</span></div>
 
 </pre></div>
 
@@ -658,8 +658,8 @@
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../../../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9"></script>
-<script defer src="../../../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9"></script>
+  <script defer src="../../../_static/scripts/bootstrap.js?digest=18bd87630a240e9c25be"></script>
+<script defer src="../../../_static/scripts/pydata-sphinx-theme.js?digest=18bd87630a240e9c25be"></script>
 
   <footer class="bd-footer">
 <div class="bd-footer__inner bd-page-width">
@@ -679,8 +679,7 @@
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
-    <br/>
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.2.0.
   </p>
 </div>
       
@@ -693,7 +692,7 @@
         <div class="footer-item">
 <p class="theme-version">
   <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.20.0.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.23.0.
 </p></div>
       
     </div>

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 
@@ -27,8 +26,8 @@
   </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=18bd87630a240e9c25be" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=18bd87630a240e9c25be" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
@@ -37,19 +36,19 @@
     <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=fb1a6b5d" />
   
   <!-- So that users can add custom icons -->
-  <script defer src="../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
+  <script defer src="../_static/scripts/fontawesome.js?digest=18bd87630a240e9c25be"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=18bd87630a240e9c25be" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=18bd87630a240e9c25be" />
 
-    <script src="../_static/documentation_options.js?v=ccf66f66"></script>
+    <script src="../_static/documentation_options.js?v=ffe3ab98"></script>
     <script src="../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'examples/ho_search_databroker';</script>
     <script>
-        DOCUMENTATION_OPTIONS.theme_version = '0.20.0';
+        DOCUMENTATION_OPTIONS.theme_version = '0.23.0';
         DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://raw.githubusercontent.com/BCDA-APS/apstools/main/docs/source/_static/switcher.json';
         DOCUMENTATION_OPTIONS.theme_switcher_version_match = 'dev';
         DOCUMENTATION_OPTIONS.show_version_warning_banner =
@@ -61,6 +60,7 @@
     <link rel="next" title="How to setup logging" href="ho_session_logs.html" />
     <link rel="prev" title="How to use NeXus/HDF5 Templates" href="ho_nxwriter_templates.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="color-scheme" content="light dark"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="0.1" />
   
@@ -110,7 +110,7 @@
   
     <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
 <div class="bd-header__inner bd-page-width">
-  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+  <button type="button" class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
     <span class="fa-solid fa-bars"></span>
   </button>
   
@@ -216,7 +216,7 @@
         <div class="navbar-item navbar-persistent--container">
           
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button type="button" class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
  <i class="fa-solid fa-magnifying-glass"></i>
  <span class="search-button__default-text">Search</span>
  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -227,15 +227,15 @@
         <div class="navbar-item">
 
 <div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+  <button type="button" class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
     <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
     <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
     <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
   </button>
   <ul class="dropdown-menu dropdown-menu-end">
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
   </ul>
 </div></div>
       
@@ -261,7 +261,7 @@
   
     <div class="navbar-persistent--mobile">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button type="button" class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
  <i class="fa-solid fa-magnifying-glass"></i>
  <span class="search-button__default-text">Search</span>
  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -270,7 +270,7 @@
   
 
   
-    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+    <button type="button" class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
       <span class="fa-solid fa-outdent"></span>
     </button>
   
@@ -354,15 +354,15 @@
           <div class="navbar-item">
 
 <div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+  <button type="button" class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
     <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
     <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
     <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
   </button>
   <ul class="dropdown-menu dropdown-menu-end">
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
   </ul>
 </div></div>
         
@@ -386,7 +386,7 @@
   </div>
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
-        <div class="sidebar-primary-item pst-sidebar-collapse"><button id="pst-collapse-sidebar-button" aria-expanded="true" aria-controls="pst-primary-sidebar">
+        <div class="sidebar-primary-item pst-sidebar-collapse"><button type="button" id="pst-collapse-sidebar-button" aria-expanded="true" aria-controls="pst-primary-sidebar">
   <svg class="pst-icon" role="img" aria-hidden="true" focusable="false" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
     <path fill="currentColor" d="M3 15.5C2.36232 15.5 1.74874 15.2564 1.28478 14.8189C0.820828 14.3815 0.541576 13.7832 0.504167 13.1467L0.5 13L0.5 3C0.499965 2.36232 0.743605 1.74874 1.18107 1.28478C1.61854 0.820828 2.21676 0.541576 2.85333 0.504167L3 0.5L13 0.5C13.6377 0.499965 14.2513 0.743605 14.7152 1.18107C15.1792 1.61854 15.4584 2.21676 15.4958 2.85333L15.5 3L15.5 13C15.5 13.6377 15.2564 14.2513 14.8189 14.7152C14.3815 15.1792 13.7832 15.4584 13.1467 15.4958L13 15.5L3 15.5ZM3 13.8333L10.5 13.8333L10.5 2.16667L3 2.16667C2.79589 2.16669 2.59889 2.24163 2.44636 2.37726C2.29383 2.5129 2.19638 2.69979 2.1725 2.9025L2.16667 3L2.16667 13C2.16669 13.2041 2.24163 13.4011 2.37726 13.5536C2.5129 13.7062 2.69979 13.8036 2.9025 13.8275L3 13.8333ZM6.65583 10.325L6.5775 10.2558L4.91083 8.58917C4.76735 8.44567 4.68116 8.25476 4.66843 8.05223C4.65569 7.84971 4.71729 7.6495 4.84167 7.48917L4.91083 7.41083L6.5775 5.74417C6.72747 5.59471 6.9287 5.50794 7.14032 5.50148C7.35194 5.49502 7.55809 5.56935 7.7169 5.70937C7.8757 5.8494 7.97525 6.04463 7.99533 6.25539C8.01541 6.46616 7.95451 6.67667 7.825 6.84417L7.75583 6.9225L6.67917 8L7.75583 9.0775C7.89931 9.22099 7.98551 9.41191 7.99824 9.61443C8.01097 9.81695 7.94938 10.0172 7.825 10.1775L7.75583 10.2558C7.61234 10.3993 7.42142 10.4855 7.2189 10.4982C7.01638 10.511 6.81617 10.4494 6.65583 10.325Z"/>
   </svg>
@@ -406,6 +406,7 @@
 <li class="toctree-l2"><a class="reference internal" href="de_ad_pe.html">ADPerkinElmer Area Detector with default HDF5 File Name</a></li>
 <li class="toctree-l2"><a class="reference internal" href="de_ad_pilatus.html">ADPilatus Area Detector with default HDF5 File Name</a></li>
 <li class="toctree-l2"><a class="reference internal" href="de_aps_data_management.html">Integration with APS Data Management (DM)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="de_quadem_continuous.html">quadEM electrometers (TetrAMM, FX4, …) in continuous mode</a></li>
 <li class="toctree-l2"><a class="reference internal" href="de_sscan.html">The synApps <code class="docutils literal notranslate"><span class="pre">sscan</span></code> and <code class="docutils literal notranslate"><span class="pre">SscanRecord</span></code></a></li>
 </ul>
 </details></li>
@@ -426,7 +427,7 @@
 <li class="toctree-l2"><a class="reference internal" href="ho_motor_factory.html">Grouping Motors with <code class="docutils literal notranslate"><span class="pre">mb_creator</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="ho_motor_factory_quickstart.html">Quick Start: Grouping Motors with <code class="docutils literal notranslate"><span class="pre">mb_creator</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="ho_nxwriter_templates.html">How to use NeXus/HDF5 Templates</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">How to Search for Bluesky Data?</a></li>
+<li class="toctree-l2 current active"><a aria-current="page" class="current reference internal" href="#">How to Search for Bluesky Data?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ho_session_logs.html">How to setup logging</a></li>
 </ul>
 </details></li>
@@ -530,15 +531,15 @@ informative and compact.</p>
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">databroker</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;catalogs available: </span><span class="si">{</span><span class="nb">list</span><span class="p">(</span><span class="n">databroker</span><span class="o">.</span><span class="n">catalog</span><span class="p">)</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"catalogs available: </span><span class="si">{</span><span class="nb">list</span><span class="p">(</span><span class="n">databroker</span><span class="o">.</span><span class="n">catalog</span><span class="p">)</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
 
-<span class="n">cat</span> <span class="o">=</span> <span class="n">databroker</span><span class="o">.</span><span class="n">catalog</span><span class="p">[</span><span class="s2">&quot;class_2021_03&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">v2</span>
+<span class="n">cat</span> <span class="o">=</span> <span class="n">databroker</span><span class="o">.</span><span class="n">catalog</span><span class="p">[</span><span class="s2">"class_2021_03"</span><span class="p">]</span><span class="o">.</span><span class="n">v2</span>
 <span class="n">cat</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>catalogs available: list(databroker.catalog)=[&#39;bdp2022&#39;, &#39;class_2021_03&#39;, &#39;6idb_export&#39;, &#39;apstools_test&#39;, &#39;class_data_examples&#39;, &#39;usaxs_test&#39;, &#39;korts202106&#39;, &#39;training&#39;]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>catalogs available: list(databroker.catalog)=['bdp2022', 'class_2021_03', '6idb_export', 'apstools_test', 'class_data_examples', 'usaxs_test', 'korts202106', 'training']
 </pre></div>
 </div>
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>class_2021_03:
@@ -546,7 +547,7 @@ informative and compact.</p>
     asset_registry_db: mongodb://localhost:27017/class_2021_03-bluesky
     metadatastore_db: mongodb://localhost:27017/class_2021_03-bluesky
     name: class_2021_03
-  description: &#39;&#39;
+  description: ''
   driver: databroker._drivers.mongo_normalized.BlueskyMongoCatalog
   metadata:
     catalog_dir: /home/prjemian/.local/share/intake/
@@ -557,16 +558,16 @@ informative and compact.</p>
 <p>What does the <code class="docutils literal notranslate"><span class="pre">cat</span></code> object describe?</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">cat</span><span class="o">.</span><span class="n">name</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">cat</span><span class="p">)</span><span class="si">=}</span><span class="s2"> measurements (runs) in the catalog&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">cat</span><span class="o">.</span><span class="n">metadata</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">cat</span><span class="o">.</span><span class="n">name</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">cat</span><span class="p">)</span><span class="si">=}</span><span class="s2"> measurements (runs) in the catalog"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">cat</span><span class="o">.</span><span class="n">metadata</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>cat.name=&#39;class_2021_03&#39;
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>cat.name='class_2021_03'
 len(cat)=40 measurements (runs) in the catalog
-cat.metadata={&#39;catalog_dir&#39;: &#39;/home/prjemian/.local/share/intake/&#39;}
+cat.metadata={'catalog_dir': '/home/prjemian/.local/share/intake/'}
 </pre></div>
 </div>
 </div>
@@ -643,22 +644,22 @@ advised if the <em>short</em> <code class="docutils literal notranslate"><span c
 <p>Each of these references retrieve the same run:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;scan_id: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="mi">192</span><span class="p">]</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;scan_id: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="s1">&#39;192&#39;</span><span class="p">]</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>  <span class="c1"># treated as an integer by databroker</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;relative: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;relative: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="s1">&#39;-1&#39;</span><span class="p">]</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>  <span class="c1"># treated as an integer by databroker</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;short uid: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="s1">&#39;e3&#39;</span><span class="p">]</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>  <span class="c1"># shortest version that works</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;short uid: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="s1">&#39;e3862991-688d&#39;</span><span class="p">]</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>  <span class="c1"># must include the hyphen</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"scan_id: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="mi">192</span><span class="p">]</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"scan_id: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="s1">'192'</span><span class="p">]</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>  <span class="c1"># treated as an integer by databroker</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"relative: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"relative: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="s1">'-1'</span><span class="p">]</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>  <span class="c1"># treated as an integer by databroker</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"short uid: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="s1">'e3'</span><span class="p">]</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>  <span class="c1"># shortest version that works</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"short uid: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="s1">'e3862991-688d'</span><span class="p">]</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>  <span class="c1"># must include the hyphen</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>scan_id: cat[192]=&lt;BlueskyRun uid=&#39;e3862991-688d-43dc-8442-d85ccbb3d6c8&#39;&gt;
-scan_id: cat[&#39;192&#39;]=&lt;BlueskyRun uid=&#39;e3862991-688d-43dc-8442-d85ccbb3d6c8&#39;&gt;
-relative: cat[-1]=&lt;BlueskyRun uid=&#39;e3862991-688d-43dc-8442-d85ccbb3d6c8&#39;&gt;
-relative: cat[&#39;-1&#39;]=&lt;BlueskyRun uid=&#39;e3862991-688d-43dc-8442-d85ccbb3d6c8&#39;&gt;
-short uid: cat[&#39;e3&#39;]=&lt;BlueskyRun uid=&#39;e3862991-688d-43dc-8442-d85ccbb3d6c8&#39;&gt;
-short uid: cat[&#39;e3862991-688d&#39;]=&lt;BlueskyRun uid=&#39;e3862991-688d-43dc-8442-d85ccbb3d6c8&#39;&gt;
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>scan_id: cat[192]=&lt;BlueskyRun uid='e3862991-688d-43dc-8442-d85ccbb3d6c8'&gt;
+scan_id: cat['192']=&lt;BlueskyRun uid='e3862991-688d-43dc-8442-d85ccbb3d6c8'&gt;
+relative: cat[-1]=&lt;BlueskyRun uid='e3862991-688d-43dc-8442-d85ccbb3d6c8'&gt;
+relative: cat['-1']=&lt;BlueskyRun uid='e3862991-688d-43dc-8442-d85ccbb3d6c8'&gt;
+short uid: cat['e3']=&lt;BlueskyRun uid='e3862991-688d-43dc-8442-d85ccbb3d6c8'&gt;
+short uid: cat['e3862991-688d']=&lt;BlueskyRun uid='e3862991-688d-43dc-8442-d85ccbb3d6c8'&gt;
 </pre></div>
 </div>
 </div>
@@ -666,18 +667,18 @@ short uid: cat[&#39;e3862991-688d&#39;]=&lt;BlueskyRun uid=&#39;e3862991-688d-43
 <p>Show the run has the expected <code class="docutils literal notranslate"><span class="pre">scan_id</span></code>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;scan_id: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="mi">192</span><span class="p">]</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s1">&#39;start&#39;</span><span class="p">][</span><span class="s1">&#39;scan_id&#39;</span><span class="p">]</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"scan_id: </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="mi">192</span><span class="p">]</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s1">'start'</span><span class="p">][</span><span class="s1">'scan_id'</span><span class="p">]</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
 <span class="n">cat</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>scan_id: cat[192].metadata[&#39;start&#39;][&#39;scan_id&#39;]=192
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>scan_id: cat[192].metadata['start']['scan_id']=192
 </pre></div>
 </div>
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>BlueskyRun
-  uid=&#39;e3862991-688d-43dc-8442-d85ccbb3d6c8&#39;
-  exit_status=&#39;success&#39;
+  uid='e3862991-688d-43dc-8442-d85ccbb3d6c8'
+  exit_status='success'
   2021-05-19 15:22:03.070 -- 2021-05-19 15:22:07.087
   Streams:
     * baseline
@@ -691,13 +692,13 @@ short uid: cat[&#39;e3862991-688d&#39;]=&lt;BlueskyRun uid=&#39;e3862991-688d-43
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">uid</span> <span class="ow">in</span> <span class="n">cat</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">uid</span><span class="si">=}</span><span class="s2">  </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="n">uid</span><span class="p">]</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">uid</span><span class="si">=}</span><span class="s2">  </span><span class="si">{</span><span class="n">cat</span><span class="p">[</span><span class="n">uid</span><span class="p">]</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
     <span class="k">break</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>uid=&#39;e3862991-688d-43dc-8442-d85ccbb3d6c8&#39;  cat[uid]=&lt;BlueskyRun uid=&#39;e3862991-688d-43dc-8442-d85ccbb3d6c8&#39;&gt;
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>uid='e3862991-688d-43dc-8442-d85ccbb3d6c8'  cat[uid]=&lt;BlueskyRun uid='e3862991-688d-43dc-8442-d85ccbb3d6c8'&gt;
 </pre></div>
 </div>
 </div>
@@ -722,7 +723,7 @@ and the <code class="docutils literal notranslate"><span class="pre">HH:MM:SS</s
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz&#39;s interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz's interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
   timezone = lz.zone
 </pre></div>
 </div>
@@ -764,14 +765,14 @@ and the <code class="docutils literal notranslate"><span class="pre">HH:MM:SS</s
 listruns<span class=" -Color -Color-Blue">(</span>
     cat<span class=" -Color -Color-Blue">=</span><span class=" -Color -Color-Green">None</span><span class=" -Color -Color-Blue">,</span>
     keys<span class=" -Color -Color-Blue">=</span><span class=" -Color -Color-Green">None</span><span class=" -Color -Color-Blue">,</span>
-    missing<span class=" -Color -Color-Blue">=&#39;&#39;,</span>
+    missing<span class=" -Color -Color-Blue">='',</span>
     num<span class=" -Color -Color-Blue">=</span><span class=" -Color -Color-Cyan">20</span><span class=" -Color -Color-Blue">,</span>
-    printing<span class=" -Color -Color-Blue">=&#39;smart&#39;,</span>
+    printing<span class=" -Color -Color-Blue">='smart',</span>
     reverse<span class=" -Color -Color-Blue">=</span><span class=" -Color -Color-Green">True</span><span class=" -Color -Color-Blue">,</span>
     since<span class=" -Color -Color-Blue">=</span><span class=" -Color -Color-Green">None</span><span class=" -Color -Color-Blue">,</span>
-    sortby<span class=" -Color -Color-Blue">=&#39;time&#39;,</span>
-    tablefmt<span class=" -Color -Color-Blue">=&#39;dataframe&#39;,</span>
-    timefmt<span class=" -Color -Color-Blue">=&#39;%Y-%m-%d %H:%M:%S&#39;,</span>
+    sortby<span class=" -Color -Color-Blue">='time',</span>
+    tablefmt<span class=" -Color -Color-Blue">='dataframe',</span>
+    timefmt<span class=" -Color -Color-Blue">='%Y-%m-%d %H:%M:%S',</span>
     until<span class=" -Color -Color-Blue">=</span><span class=" -Color -Color-Green">None</span><span class=" -Color -Color-Blue">,</span>
     ids<span class=" -Color -Color-Blue">=</span><span class=" -Color -Color-Green">None</span><span class=" -Color -Color-Blue">,</span>
     <span class=" -Color -Color-Blue">**</span>query<span class=" -Color -Color-Blue">,</span>
@@ -790,11 +791,11 @@ cat
 keys
     *str* or *[str]* or None:
     Include these additional keys from the start document.
-    (default: ``None`` means ``&quot;scan_id time plan_name detectors&quot;``)
+    (default: ``None`` means ``"scan_id time plan_name detectors"``)
 missing
     *str*:
     Test to report when a value is not available.
-    (default: ``&quot;&quot;``)
+    (default: ``""``)
 ids
     *[int]* or *[str]*:
     List of ``uid`` or ``scan_id`` value(s).
@@ -809,9 +810,9 @@ num
     Make the table include the ``num`` most recent runs.
     (default: ``20``)
 printing
-    *bool* or ``&quot;smart&quot;``:
+    *bool* or ``"smart"``:
     If ``True``, print the table to stdout.
-    If ``&quot;smart&quot;``, then act as shown below.
+    If ``"smart"``, then act as shown below.
     (default: ``True``)
 
     ================  ===================
@@ -829,17 +830,17 @@ reverse
 since
     *str* :
     include runs that started on or after this ISO8601 time
-    (default: ``&quot;1995-01-01&quot;``)
+    (default: ``"1995-01-01"``)
 sortby
     *str* :
     Sort columns by this key, found by exact match in either
     the ``start`` or ``stop`` document.
-    (default: ``&quot;time&quot;``)
+    (default: ``"time"``)
 tablefmt
     *str* :
     When returning an object, specify which type
     of object to return.
-    (default: ``&quot;dataframe&quot;,``)
+    (default: ``"dataframe",``)
 
     ========== ==============
     value      object
@@ -850,12 +851,12 @@ tablefmt
 
 timefmt
     *str* :
-    The ``time`` key (also includes keys ``&quot;start.time&quot;`` and  ``&quot;stop.time&quot;``)
+    The ``time`` key (also includes keys ``"start.time"`` and  ``"stop.time"``)
     will be formatted by the ``self.timefmt`` value.
-    See https://strftime.org/ for examples.  The special ``timefmt=&quot;raw&quot;``
+    See https://strftime.org/ for examples.  The special ``timefmt="raw"``
     is used to report time as the raw value (floating point time as used in
-    python&#39;s ``time.time()``).
-    (default: ``&quot;%Y-%m-%d %H:%M:%S&quot;,``)
+    python's ``time.time()``).
+    (default: ``"%Y-%m-%d %H:%M:%S",``)
 until
     *str* :
     include runs that started before this ISO8601 time
@@ -890,12 +891,12 @@ EXAMPLE::
 incomplete, it is implied that the full specification is <code class="docutils literal notranslate"><span class="pre">2021-04-01</span> <span class="pre">00:00:00.0000000</span></code>.)</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span><span class="n">since</span><span class="o">=</span><span class="s2">&quot;2021-04&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span><span class="n">since</span><span class="o">=</span><span class="s2">"2021-04"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz&#39;s interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz's interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
   timezone = lz.zone
 </pre></div>
 </div>
@@ -916,12 +917,12 @@ incomplete, it is implied that the full specification is <code class="docutils l
 <p>Here, the specification will include any date <strong>until</strong> (before) the beginning of May 2021.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span><span class="n">until</span><span class="o">=</span><span class="s2">&quot;2021-05&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span><span class="n">until</span><span class="o">=</span><span class="s2">"2021-05"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz&#39;s interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz's interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
   timezone = lz.zone
 </pre></div>
 </div>
@@ -954,12 +955,12 @@ incomplete, it is implied that the full specification is <code class="docutils l
 <p>You can combine them:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span><span class="n">since</span><span class="o">=</span><span class="s2">&quot;2021-04&quot;</span><span class="p">,</span> <span class="n">until</span><span class="o">=</span><span class="s2">&quot;2021-05&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span><span class="n">since</span><span class="o">=</span><span class="s2">"2021-04"</span><span class="p">,</span> <span class="n">until</span><span class="o">=</span><span class="s2">"2021-05"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz&#39;s interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz's interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
   timezone = lz.zone
 </pre></div>
 </div>
@@ -987,97 +988,97 @@ content to match.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;start&#39;: Start({&#39;beamline_id&#39;: &#39;APS_Python_training_2021&#39;,
- &#39;detectors&#39;: [&#39;scaler1&#39;, &#39;adsimdet&#39;, &#39;zaxis&#39;],
- &#39;hints&#39;: {&#39;dimensions&#39;: [[[&#39;zaxis_h&#39;], &#39;primary&#39;]]},
- &#39;instrument_name&#39;: &#39;class_2021_03&#39;,
- &#39;login_id&#39;: &#39;prjemian@zap&#39;,
- &#39;motors&#39;: [&#39;zaxis_h&#39;],
- &#39;notebook&#39;: &#39;UB_autosave&#39;,
- &#39;num_intervals&#39;: 7,
- &#39;num_points&#39;: 8,
- &#39;objective&#39;: &#39;Demonstrate UB matrix save &amp; restore&#39;,
- &#39;pid&#39;: 3712584,
- &#39;plan_args&#39;: {&#39;args&#39;: [&quot;PseudoSingle(prefix=&#39;&#39;, name=&#39;zaxis_h&#39;, &quot;
-                        &quot;parent=&#39;zaxis&#39;, settle_time=0.0, timeout=None, &quot;
-                        &quot;egu=&#39;&#39;, limits=(0, 0), source=&#39;computed&#39;, &quot;
-                        &quot;read_attrs=[&#39;readback&#39;, &#39;setpoint&#39;], &quot;
-                        &#39;configuration_attrs=[], idx=0)&#39;,
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{'start': Start({'beamline_id': 'APS_Python_training_2021',
+ 'detectors': ['scaler1', 'adsimdet', 'zaxis'],
+ 'hints': {'dimensions': [[['zaxis_h'], 'primary']]},
+ 'instrument_name': 'class_2021_03',
+ 'login_id': 'prjemian@zap',
+ 'motors': ['zaxis_h'],
+ 'notebook': 'UB_autosave',
+ 'num_intervals': 7,
+ 'num_points': 8,
+ 'objective': 'Demonstrate UB matrix save &amp; restore',
+ 'pid': 3712584,
+ 'plan_args': {'args': ["PseudoSingle(prefix='', name='zaxis_h', "
+                        "parent='zaxis', settle_time=0.0, timeout=None, "
+                        "egu='', limits=(0, 0), source='computed', "
+                        "read_attrs=['readback', 'setpoint'], "
+                        'configuration_attrs=[], idx=0)',
                         -0.1,
                         0.1],
-               &#39;detectors&#39;: [&quot;ScalerCH(prefix=&#39;gp:scaler1&#39;, name=&#39;scaler1&#39;, &quot;
-                             &quot;read_attrs=[&#39;channels&#39;, &#39;channels.chan01&#39;, &quot;
-                             &quot;&#39;channels.chan01.s&#39;, &#39;channels.chan02&#39;, &quot;
-                             &quot;&#39;channels.chan02.s&#39;, &#39;channels.chan03&#39;, &quot;
-                             &quot;&#39;channels.chan03.s&#39;, &#39;channels.chan04&#39;, &quot;
-                             &quot;&#39;channels.chan04.s&#39;, &#39;time&#39;], &quot;
-                             &quot;configuration_attrs=[&#39;channels&#39;, &quot;
-                             &quot;&#39;channels.chan01&#39;, &#39;channels.chan01.chname&#39;, &quot;
-                             &quot;&#39;channels.chan01.preset&#39;, &quot;
-                             &quot;&#39;channels.chan01.gate&#39;, &#39;channels.chan02&#39;, &quot;
-                             &quot;&#39;channels.chan02.chname&#39;, &quot;
-                             &quot;&#39;channels.chan02.preset&#39;, &quot;
-                             &quot;&#39;channels.chan02.gate&#39;, &#39;channels.chan03&#39;, &quot;
-                             &quot;&#39;channels.chan03.chname&#39;, &quot;
-                             &quot;&#39;channels.chan03.preset&#39;, &quot;
-                             &quot;&#39;channels.chan03.gate&#39;, &#39;channels.chan04&#39;, &quot;
-                             &quot;&#39;channels.chan04.chname&#39;, &quot;
-                             &quot;&#39;channels.chan04.preset&#39;, &quot;
-                             &quot;&#39;channels.chan04.gate&#39;, &#39;count_mode&#39;, &#39;delay&#39;, &quot;
-                             &quot;&#39;auto_count_delay&#39;, &#39;freq&#39;, &#39;preset_time&#39;, &quot;
-                             &quot;&#39;auto_count_time&#39;, &#39;egu&#39;])&quot;,
-                             &quot;MySimDetector(prefix=&#39;ad:&#39;, name=&#39;adsimdet&#39;, &quot;
-                             &quot;read_attrs=[&#39;hdf1&#39;], configuration_attrs=[&#39;cam&#39;, &quot;
-                             &quot;&#39;cam.acquire_period&#39;, &#39;cam.acquire_time&#39;, &quot;
-                             &quot;&#39;cam.image_mode&#39;, &#39;cam.manufacturer&#39;, &quot;
-                             &quot;&#39;cam.model&#39;, &#39;cam.num_exposures&#39;, &quot;
-                             &quot;&#39;cam.num_images&#39;, &#39;cam.trigger_mode&#39;, &#39;hdf1&#39;])&quot;,
-                             &quot;MyZaxis(prefix=&#39;&#39;, name=&#39;zaxis&#39;, &quot;
-                             &quot;settle_time=0.0, timeout=None, egu=&#39;&#39;, &quot;
-                             &quot;limits=(0, 0), source=&#39;computed&#39;, &quot;
-                             &quot;read_attrs=[&#39;h&#39;, &#39;h.readback&#39;, &#39;h.setpoint&#39;, &quot;
-                             &quot;&#39;k&#39;, &#39;k.readback&#39;, &#39;k.setpoint&#39;, &#39;l&#39;, &quot;
-                             &quot;&#39;l.readback&#39;, &#39;l.setpoint&#39;, &#39;mu&#39;, &#39;omega&#39;, &quot;
-                             &quot;&#39;delta&#39;, &#39;gamma&#39;], &quot;
-                             &quot;configuration_attrs=[&#39;energy&#39;, &#39;geometry_name&#39;, &quot;
-                             &quot;&#39;class_name&#39;, &#39;UB&#39;, &#39;reflections_details&#39;, &#39;h&#39;, &quot;
-                             &quot;&#39;k&#39;, &#39;l&#39;], concurrent=True)&quot;],
-               &#39;num&#39;: 8,
-               &#39;per_step&#39;: &#39;None&#39;},
- &#39;plan_name&#39;: &#39;rel_scan&#39;,
- &#39;plan_pattern&#39;: &#39;inner_product&#39;,
- &#39;plan_pattern_args&#39;: {&#39;args&#39;: [&quot;PseudoSingle(prefix=&#39;&#39;, name=&#39;zaxis_h&#39;, &quot;
-                                &quot;parent=&#39;zaxis&#39;, settle_time=0.0, &quot;
-                                &quot;timeout=None, egu=&#39;&#39;, limits=(0, 0), &quot;
-                                &quot;source=&#39;computed&#39;, read_attrs=[&#39;readback&#39;, &quot;
-                                &quot;&#39;setpoint&#39;], configuration_attrs=[], idx=0)&quot;,
+               'detectors': ["ScalerCH(prefix='gp:scaler1', name='scaler1', "
+                             "read_attrs=['channels', 'channels.chan01', "
+                             "'channels.chan01.s', 'channels.chan02', "
+                             "'channels.chan02.s', 'channels.chan03', "
+                             "'channels.chan03.s', 'channels.chan04', "
+                             "'channels.chan04.s', 'time'], "
+                             "configuration_attrs=['channels', "
+                             "'channels.chan01', 'channels.chan01.chname', "
+                             "'channels.chan01.preset', "
+                             "'channels.chan01.gate', 'channels.chan02', "
+                             "'channels.chan02.chname', "
+                             "'channels.chan02.preset', "
+                             "'channels.chan02.gate', 'channels.chan03', "
+                             "'channels.chan03.chname', "
+                             "'channels.chan03.preset', "
+                             "'channels.chan03.gate', 'channels.chan04', "
+                             "'channels.chan04.chname', "
+                             "'channels.chan04.preset', "
+                             "'channels.chan04.gate', 'count_mode', 'delay', "
+                             "'auto_count_delay', 'freq', 'preset_time', "
+                             "'auto_count_time', 'egu'])",
+                             "MySimDetector(prefix='ad:', name='adsimdet', "
+                             "read_attrs=['hdf1'], configuration_attrs=['cam', "
+                             "'cam.acquire_period', 'cam.acquire_time', "
+                             "'cam.image_mode', 'cam.manufacturer', "
+                             "'cam.model', 'cam.num_exposures', "
+                             "'cam.num_images', 'cam.trigger_mode', 'hdf1'])",
+                             "MyZaxis(prefix='', name='zaxis', "
+                             "settle_time=0.0, timeout=None, egu='', "
+                             "limits=(0, 0), source='computed', "
+                             "read_attrs=['h', 'h.readback', 'h.setpoint', "
+                             "'k', 'k.readback', 'k.setpoint', 'l', "
+                             "'l.readback', 'l.setpoint', 'mu', 'omega', "
+                             "'delta', 'gamma'], "
+                             "configuration_attrs=['energy', 'geometry_name', "
+                             "'class_name', 'UB', 'reflections_details', 'h', "
+                             "'k', 'l'], concurrent=True)"],
+               'num': 8,
+               'per_step': 'None'},
+ 'plan_name': 'rel_scan',
+ 'plan_pattern': 'inner_product',
+ 'plan_pattern_args': {'args': ["PseudoSingle(prefix='', name='zaxis_h', "
+                                "parent='zaxis', settle_time=0.0, "
+                                "timeout=None, egu='', limits=(0, 0), "
+                                "source='computed', read_attrs=['readback', "
+                                "'setpoint'], configuration_attrs=[], idx=0)",
                                 -0.1,
                                 0.1],
-                       &#39;num&#39;: 8},
- &#39;plan_pattern_module&#39;: &#39;bluesky.plan_patterns&#39;,
- &#39;plan_type&#39;: &#39;generator&#39;,
- &#39;proposal_id&#39;: &#39;training&#39;,
- &#39;scan_id&#39;: 192,
- &#39;time&#39;: 1621455723.0701044,
- &#39;uid&#39;: &#39;e3862991-688d-43dc-8442-d85ccbb3d6c8&#39;,
- &#39;versions&#39;: {&#39;apstools&#39;: &#39;1.5.0rc1&#39;,
-              &#39;bluesky&#39;: &#39;1.6.7&#39;,
-              &#39;databroker&#39;: &#39;1.2.2&#39;,
-              &#39;epics&#39;: &#39;3.4.3&#39;,
-              &#39;h5py&#39;: &#39;3.2.1&#39;,
-              &#39;intake&#39;: &#39;0.6.2&#39;,
-              &#39;matplotlib&#39;: &#39;3.3.4&#39;,
-              &#39;numpy&#39;: &#39;1.20.1&#39;,
-              &#39;ophyd&#39;: &#39;1.6.1&#39;,
-              &#39;pyRestTable&#39;: &#39;2020.0.3&#39;,
-              &#39;spec2nexus&#39;: &#39;2021.1.8&#39;}}),
- &#39;stop&#39;: Stop({&#39;exit_status&#39;: &#39;success&#39;,
- &#39;num_events&#39;: {&#39;baseline&#39;: 2, &#39;primary&#39;: 8},
- &#39;reason&#39;: &#39;&#39;,
- &#39;run_start&#39;: &#39;e3862991-688d-43dc-8442-d85ccbb3d6c8&#39;,
- &#39;time&#39;: 1621455727.087438,
- &#39;uid&#39;: &#39;70b9a95f-59aa-408d-8819-1463f3eebac5&#39;}),
- &#39;catalog_dir&#39;: None}
+                       'num': 8},
+ 'plan_pattern_module': 'bluesky.plan_patterns',
+ 'plan_type': 'generator',
+ 'proposal_id': 'training',
+ 'scan_id': 192,
+ 'time': 1621455723.0701044,
+ 'uid': 'e3862991-688d-43dc-8442-d85ccbb3d6c8',
+ 'versions': {'apstools': '1.5.0rc1',
+              'bluesky': '1.6.7',
+              'databroker': '1.2.2',
+              'epics': '3.4.3',
+              'h5py': '3.2.1',
+              'intake': '0.6.2',
+              'matplotlib': '3.3.4',
+              'numpy': '1.20.1',
+              'ophyd': '1.6.1',
+              'pyRestTable': '2020.0.3',
+              'spec2nexus': '2021.1.8'}}),
+ 'stop': Stop({'exit_status': 'success',
+ 'num_events': {'baseline': 2, 'primary': 8},
+ 'reason': '',
+ 'run_start': 'e3862991-688d-43dc-8442-d85ccbb3d6c8',
+ 'time': 1621455727.087438,
+ 'uid': '70b9a95f-59aa-408d-8819-1463f3eebac5'}),
+ 'catalog_dir': None}
 </pre></div>
 </div>
 </div>
@@ -1087,12 +1088,12 @@ no guarantee that a run will have this metadata key.)  To list runs measured
 with the <code class="docutils literal notranslate"><span class="pre">count</span></code> plan, use <code class="docutils literal notranslate"><span class="pre">listruns(plan_name=&quot;count&quot;)</span></code>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span><span class="n">plan_name</span><span class="o">=</span><span class="s2">&quot;count&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span><span class="n">plan_name</span><span class="o">=</span><span class="s2">"count"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz&#39;s interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz's interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
   timezone = lz.zone
 </pre></div>
 </div>
@@ -1118,12 +1119,12 @@ with the <code class="docutils literal notranslate"><span class="pre">count</spa
 <p>You can combine a search with more than one metadata key, such as <em>any <code class="docutils literal notranslate"><span class="pre">count</span></code> run <code class="docutils literal notranslate"><span class="pre">#20</span></code></em>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span><span class="n">plan_name</span><span class="o">=</span><span class="s2">&quot;count&quot;</span><span class="p">,</span> <span class="n">scan_id</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span><span class="n">plan_name</span><span class="o">=</span><span class="s2">"count"</span><span class="p">,</span> <span class="n">scan_id</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz&#39;s interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz's interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
   timezone = lz.zone
 </pre></div>
 </div>
@@ -1165,12 +1166,12 @@ terms we need for this query:</p>
 <p>Here, search for <code class="docutils literal notranslate"><span class="pre">scan_id</span></code> matching that Query and a <code class="docutils literal notranslate"><span class="pre">count</span></code> plan:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span><span class="n">scan_id</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;$gte&quot;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span> <span class="s2">&quot;$lt&quot;</span><span class="p">:</span> <span class="mi">100</span><span class="p">},</span> <span class="n">plan_name</span><span class="o">=</span><span class="s2">&quot;count&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span><span class="n">scan_id</span><span class="o">=</span><span class="p">{</span><span class="s2">"$gte"</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span> <span class="s2">"$lt"</span><span class="p">:</span> <span class="mi">100</span><span class="p">},</span> <span class="n">plan_name</span><span class="o">=</span><span class="s2">"count"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz&#39;s interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz's interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
   timezone = lz.zone
 </pre></div>
 </div>
@@ -1195,13 +1196,13 @@ searches to an existing catalog.</p>
 <p>Let’s start with a larger initial catalog to demonstrate.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">cat</span> <span class="o">=</span> <span class="n">databroker</span><span class="o">.</span><span class="n">catalog</span><span class="p">[</span><span class="s2">&quot;training&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">v2</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;There are </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">cat</span><span class="p">)</span><span class="si">}</span><span class="s2"> runs in the &#39;</span><span class="si">{</span><span class="n">cat</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&#39; catalog.&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">cat</span> <span class="o">=</span> <span class="n">databroker</span><span class="o">.</span><span class="n">catalog</span><span class="p">[</span><span class="s2">"training"</span><span class="p">]</span><span class="o">.</span><span class="n">v2</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"There are </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">cat</span><span class="p">)</span><span class="si">}</span><span class="s2"> runs in the '</span><span class="si">{</span><span class="n">cat</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">' catalog."</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>There are 8116 runs in the &#39;training&#39; catalog.
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>There are 8116 runs in the 'training' catalog.
 </pre></div>
 </div>
 </div>
@@ -1212,16 +1213,16 @@ searches to an existing catalog.</p>
 <p>To answer this, we must know how to apply the MongoDB Query to the catalog.  The catalog has a <code class="docutils literal notranslate"><span class="pre">.search(query)</span></code> method, where the <code class="docutils literal notranslate"><span class="pre">query</span></code> term is the dictionary, similar to how it was used above.  Instead of a keyword, though, the metadata key is <em><strong>in</strong></em> the dictionary.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">query</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;plan_name&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;$eq&quot;</span><span class="p">:</span> <span class="s2">&quot;count&quot;</span><span class="p">}}</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">query</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">query</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"plan_name"</span><span class="p">:</span> <span class="p">{</span><span class="s2">"$eq"</span><span class="p">:</span> <span class="s2">"count"</span><span class="p">}}</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">query</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
 <span class="n">filtered_cat</span> <span class="o">=</span> <span class="n">cat</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;There are </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">filtered_cat</span><span class="p">)</span><span class="si">}</span><span class="s2"> runs collected by the &#39;count()&#39; plan.&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"There are </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">filtered_cat</span><span class="p">)</span><span class="si">}</span><span class="s2"> runs collected by the 'count()' plan."</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>query={&#39;plan_name&#39;: {&#39;$eq&#39;: &#39;count&#39;}}
-There are 295 runs collected by the &#39;count()&#39; plan.
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>query={'plan_name': {'$eq': 'count'}}
+There are 295 runs collected by the 'count()' plan.
 </pre></div>
 </div>
 </div>
@@ -1231,8 +1232,8 @@ and 80. (This catalog has duplicates in this range.)  Display the filtered
 catalog using <code class="docutils literal notranslate"><span class="pre">listruns()</span></code></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">filtered_cat</span> <span class="o">=</span> <span class="n">cat</span><span class="o">.</span><span class="n">search</span><span class="p">({</span><span class="s2">&quot;plan_name&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;$eq&quot;</span><span class="p">:</span> <span class="s2">&quot;count&quot;</span><span class="p">},</span> <span class="s2">&quot;scan_id&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;$gt&quot;</span><span class="p">:</span> <span class="mi">70</span><span class="p">,</span> <span class="s2">&quot;$lt&quot;</span><span class="p">:</span> <span class="mi">80</span><span class="p">}})</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">filtered_cat</span><span class="p">)</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">filtered_cat</span> <span class="o">=</span> <span class="n">cat</span><span class="o">.</span><span class="n">search</span><span class="p">({</span><span class="s2">"plan_name"</span><span class="p">:</span> <span class="p">{</span><span class="s2">"$eq"</span><span class="p">:</span> <span class="s2">"count"</span><span class="p">},</span> <span class="s2">"scan_id"</span><span class="p">:</span> <span class="p">{</span><span class="s2">"$gt"</span><span class="p">:</span> <span class="mi">70</span><span class="p">,</span> <span class="s2">"$lt"</span><span class="p">:</span> <span class="mi">80</span><span class="p">}})</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">filtered_cat</span><span class="p">)</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
 <span class="n">listruns</span><span class="p">(</span><span class="n">filtered_cat</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -1241,7 +1242,7 @@ catalog using <code class="docutils literal notranslate"><span class="pre">listr
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>len(filtered_cat)=18
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz&#39;s interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz's interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
   timezone = lz.zone
 </pre></div>
 </div>
@@ -1296,7 +1297,7 @@ the <code class="docutils literal notranslate"><span class="pre">listruns()</spa
 
 
 <span class="k">def</span><span class="w"> </span><span class="nf">custom_list</span><span class="p">(</span><span class="n">cat</span><span class="p">,</span> <span class="n">n_runs</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">start_md_keys</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    List n_runs most recent, successful (rel_)scan runs.</span>
 
 <span class="sd">    PARAMETERS</span>
@@ -1307,63 +1308,63 @@ the <code class="docutils literal notranslate"><span class="pre">listruns()</spa
 <span class="sd">        Maximum number of runs to list in table. (default: 20)</span>
 <span class="sd">    start_md_keys *[str]*:</span>
 <span class="sd">        List of additional (start document) metadata keys to report.</span>
-<span class="sd">        (default: &#39;beamline_id, instrument_name, login_id, proposal_id&#39;)</span>
-<span class="sd">    &quot;&quot;&quot;</span>
+<span class="sd">        (default: 'beamline_id, instrument_name, login_id, proposal_id')</span>
+<span class="sd">    """</span>
     <span class="n">start_md_keys</span> <span class="o">=</span> <span class="p">(</span>
         <span class="n">start_md_keys</span>
-        <span class="ow">or</span> <span class="s2">&quot;&quot;&quot;</span>
+        <span class="ow">or</span> <span class="s2">"""</span>
 <span class="s2">        beamline_id instrument_name login_id proposal_id</span>
-<span class="s2">    &quot;&quot;&quot;</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+<span class="s2">    """</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
     <span class="p">)</span>
 
     <span class="n">ts</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">24</span> <span class="o">*</span> <span class="mi">7</span> <span class="o">*</span> <span class="p">(</span><span class="mi">52</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1"># ~6 months ago</span>
     <span class="n">dt</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">fromtimestamp</span><span class="p">(</span><span class="n">ts</span><span class="p">)</span>
-    <span class="n">since</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dt</span><span class="o">.</span><span class="n">year</span><span class="si">}</span><span class="s2">-</span><span class="si">{</span><span class="n">dt</span><span class="o">.</span><span class="n">month</span><span class="si">:</span><span class="s2">02d</span><span class="si">}</span><span class="s2">&quot;</span>  <span class="c1"># start of that month</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">since</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">since</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">dt</span><span class="o">.</span><span class="n">year</span><span class="si">}</span><span class="s2">-</span><span class="si">{</span><span class="n">dt</span><span class="o">.</span><span class="n">month</span><span class="si">:</span><span class="s2">02d</span><span class="si">}</span><span class="s2">"</span>  <span class="c1"># start of that month</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">since</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
 
     <span class="n">query</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-        <span class="n">plan_name</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;$in&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;scan&quot;</span><span class="p">,</span> <span class="s2">&quot;rel_scan&quot;</span><span class="p">]},</span>
-        <span class="n">detectors</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;noisy&quot;</span><span class="p">],</span>  <span class="c1"># only this detector</span>
+        <span class="n">plan_name</span><span class="o">=</span><span class="p">{</span><span class="s2">"$in"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"scan"</span><span class="p">,</span> <span class="s2">"rel_scan"</span><span class="p">]},</span>
+        <span class="n">detectors</span><span class="o">=</span><span class="p">[</span><span class="s2">"noisy"</span><span class="p">],</span>  <span class="c1"># only this detector</span>
     <span class="p">)</span>
     <span class="n">query</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">databroker</span><span class="o">.</span><span class="n">queries</span><span class="o">.</span><span class="n">TimeRange</span><span class="p">(</span><span class="n">since</span><span class="o">=</span><span class="n">since</span><span class="p">))</span>
     <span class="n">filtered_cat</span> <span class="o">=</span> <span class="n">cat</span><span class="o">.</span><span class="n">v2</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">filtered_cat</span><span class="p">)</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">filtered_cat</span><span class="p">)</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
 
     <span class="n">table</span> <span class="o">=</span> <span class="n">pyRestTable</span><span class="o">.</span><span class="n">Table</span><span class="p">()</span>
-    <span class="n">table</span><span class="o">.</span><span class="n">labels</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+    <span class="n">table</span><span class="o">.</span><span class="n">labels</span> <span class="o">=</span> <span class="s2">"""</span>
 <span class="s2">        scan_id plan detectors motor start end n_points date uid7</span>
-<span class="s2">    &quot;&quot;&quot;</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+<span class="s2">    """</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
     <span class="n">table</span><span class="o">.</span><span class="n">labels</span> <span class="o">+=</span> <span class="n">start_md_keys</span>
 
     <span class="k">def</span><span class="w"> </span><span class="nf">get_name_from_device_repr</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
-<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">        Dig out the name of the motor object from the &#39;plan_args&#39;.</span>
+<span class="w">        </span><span class="sd">"""</span>
+<span class="sd">        Dig out the name of the motor object from the 'plan_args'.</span>
 
-<span class="sd">        &quot;MyEpicsMotor(prefix=&#39;gp:m1&#39;, name=&#39;m1&#39;, ...)&quot;</span>
-<span class="sd">        From this string, only the `name=&#39;m1&#39;` part is interesting here.</span>
-<span class="sd">        &quot;&quot;&quot;</span>
-        <span class="n">s</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;name=&#39;&quot;</span><span class="p">)</span> <span class="o">+</span> <span class="mi">6</span>
-        <span class="n">f</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="n">s</span><span class="p">:]</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;&#39;&quot;</span><span class="p">)</span> <span class="o">+</span> <span class="n">s</span>
+<span class="sd">        "MyEpicsMotor(prefix='gp:m1', name='m1', ...)"</span>
+<span class="sd">        From this string, only the `name='m1'` part is interesting here.</span>
+<span class="sd">        """</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">"name='"</span><span class="p">)</span> <span class="o">+</span> <span class="mi">6</span>
+        <span class="n">f</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="n">s</span><span class="p">:]</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">"'"</span><span class="p">)</span> <span class="o">+</span> <span class="n">s</span>
         <span class="k">return</span> <span class="n">text</span><span class="p">[</span><span class="n">s</span><span class="p">:</span><span class="n">f</span><span class="p">]</span>
 
     <span class="k">for</span> <span class="n">uid</span> <span class="ow">in</span> <span class="n">filtered_cat</span><span class="p">:</span>
         <span class="n">run</span> <span class="o">=</span> <span class="n">filtered_cat</span><span class="p">[</span><span class="n">uid</span><span class="p">]</span>
 
-        <span class="n">success</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;stop&quot;</span><span class="p">][</span><span class="s2">&quot;exit_status&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;success&quot;</span>
+        <span class="n">success</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">"stop"</span><span class="p">][</span><span class="s2">"exit_status"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"success"</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">success</span><span class="p">:</span>
             <span class="k">continue</span>
 
         <span class="n">uid7</span> <span class="o">=</span> <span class="n">uid</span><span class="p">[:</span><span class="mi">7</span><span class="p">]</span>
-        <span class="n">date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">fromtimestamp</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">][</span><span class="s2">&quot;time&quot;</span><span class="p">],</span> <span class="mi">3</span><span class="p">))</span>
-        <span class="n">scan_id</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">][</span><span class="s2">&quot;scan_id&quot;</span><span class="p">]</span>
-        <span class="n">detectors</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">][</span><span class="s2">&quot;detectors&quot;</span><span class="p">]</span>
-        <span class="c1"># motors = run.metadata[&#39;start&#39;][&#39;motors&#39;]</span>
-        <span class="n">plan</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">][</span><span class="s2">&quot;plan_name&quot;</span><span class="p">]</span>
-        <span class="c1"># n_points = run.metadata[&#39;start&#39;][&#39;num_points&#39;]  # requested</span>
-        <span class="n">plan_args</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">][</span><span class="s2">&quot;plan_args&quot;</span><span class="p">][</span><span class="s2">&quot;args&quot;</span><span class="p">]</span>
-        <span class="n">n_points</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;stop&quot;</span><span class="p">][</span><span class="s2">&quot;num_events&quot;</span><span class="p">][</span><span class="s2">&quot;primary&quot;</span><span class="p">]</span>  <span class="c1"># recorded</span>
+        <span class="n">date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">fromtimestamp</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">"start"</span><span class="p">][</span><span class="s2">"time"</span><span class="p">],</span> <span class="mi">3</span><span class="p">))</span>
+        <span class="n">scan_id</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">"start"</span><span class="p">][</span><span class="s2">"scan_id"</span><span class="p">]</span>
+        <span class="n">detectors</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">"start"</span><span class="p">][</span><span class="s2">"detectors"</span><span class="p">]</span>
+        <span class="c1"># motors = run.metadata['start']['motors']</span>
+        <span class="n">plan</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">"start"</span><span class="p">][</span><span class="s2">"plan_name"</span><span class="p">]</span>
+        <span class="c1"># n_points = run.metadata['start']['num_points']  # requested</span>
+        <span class="n">plan_args</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">"start"</span><span class="p">][</span><span class="s2">"plan_args"</span><span class="p">][</span><span class="s2">"args"</span><span class="p">]</span>
+        <span class="n">n_points</span> <span class="o">=</span> <span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">"stop"</span><span class="p">][</span><span class="s2">"num_events"</span><span class="p">][</span><span class="s2">"primary"</span><span class="p">]</span>  <span class="c1"># recorded</span>
 
-        <span class="c1"># This data can&#39;t be extracted using only MongoDB Query</span>
+        <span class="c1"># This data can't be extracted using only MongoDB Query</span>
         <span class="n">p_start</span><span class="p">,</span> <span class="n">p_end</span> <span class="o">=</span> <span class="n">plan_args</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>  <span class="c1"># as defined in the bp.scan() plan</span>
         <span class="c1"># TODO: this assumes only 1 motor is scanned!</span>
         <span class="n">motors</span> <span class="o">=</span> <span class="p">[</span><span class="n">get_name_from_device_repr</span><span class="p">(</span><span class="n">plan_args</span><span class="p">[</span><span class="mi">0</span><span class="p">])]</span>
@@ -1373,15 +1374,15 @@ the <code class="docutils literal notranslate"><span class="pre">listruns()</spa
         <span class="n">row</span> <span class="o">=</span> <span class="p">[</span>
             <span class="n">scan_id</span><span class="p">,</span>
             <span class="n">plan</span><span class="p">,</span>
-            <span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">detectors</span><span class="p">),</span>
-            <span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">motors</span><span class="p">),</span>
+            <span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">detectors</span><span class="p">),</span>
+            <span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">motors</span><span class="p">),</span>
             <span class="nb">round</span><span class="p">(</span><span class="n">p_start</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span>
             <span class="nb">round</span><span class="p">(</span><span class="n">p_end</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span>
             <span class="n">n_points</span><span class="p">,</span>
             <span class="n">date</span><span class="p">,</span>
             <span class="n">uid7</span><span class="p">,</span>
         <span class="p">]</span>
-        <span class="n">row</span> <span class="o">+=</span> <span class="p">[</span><span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">start_md_keys</span><span class="p">]</span>
+        <span class="n">row</span> <span class="o">+=</span> <span class="p">[</span><span class="n">run</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">"start"</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="s2">""</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">start_md_keys</span><span class="p">]</span>
 
         <span class="n">table</span><span class="o">.</span><span class="n">rows</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">table</span><span class="o">.</span><span class="n">rows</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">n_runs</span><span class="p">:</span>
@@ -1395,10 +1396,10 @@ the <code class="docutils literal notranslate"><span class="pre">listruns()</spa
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>since=&#39;2022-05&#39;
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>since='2022-05'
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz&#39;s interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/prjemian/.conda/envs/bluesky_2022_3/lib/python3.9/site-packages/databroker/queries.py:89: PytzUsageWarning: The zone attribute is specific to pytz's interface; please migrate to a new time zone provider. For more details on how to do so, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
   timezone = lz.zone
 </pre></div>
 </div>
@@ -1455,9 +1456,9 @@ be expedited by additional MongoDB Query constructs.</p>
 <li><p>Find runs that failed for some reason.  Is there any indication why? (<code class="docutils literal notranslate"><span class="pre">run.metadata['stop']['reason']</span></code>)</p>
 <div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">listruns</span><span class="p">(</span>
     <span class="n">cat</span><span class="p">,</span>
-    <span class="n">keys</span><span class="o">=</span><span class="s2">&quot;uid scan_id stop.exit_status stop.reason&quot;</span><span class="p">,</span>
+    <span class="n">keys</span><span class="o">=</span><span class="s2">"uid scan_id stop.exit_status stop.reason"</span><span class="p">,</span>
     <span class="o">**</span><span class="p">{</span>
-        <span class="s2">&quot;stop.exit_status&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;$ne&quot;</span><span class="p">:</span> <span class="s2">&quot;success&quot;</span><span class="p">},</span>  <span class="c1"># FIXME: not working</span>
+        <span class="s2">"stop.exit_status"</span><span class="p">:</span> <span class="p">{</span><span class="s2">"$ne"</span><span class="p">:</span> <span class="s2">"success"</span><span class="p">},</span>  <span class="c1"># FIXME: not working</span>
     <span class="p">}</span>
 <span class="p">)</span>
 </pre></div>
@@ -1565,8 +1566,8 @@ be expedited by additional MongoDB Query constructs.</p>
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9"></script>
-<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9"></script>
+  <script defer src="../_static/scripts/bootstrap.js?digest=18bd87630a240e9c25be"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=18bd87630a240e9c25be"></script>
 
   <footer class="bd-footer">
 <div class="bd-footer__inner bd-page-width">
@@ -1586,8 +1587,7 @@ be expedited by additional MongoDB Query constructs.</p>
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
-    <br/>
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.2.0.
   </p>
 </div>
       
@@ -1600,7 +1600,7 @@ be expedited by additional MongoDB Query constructs.</p>
         <div class="footer-item">
 <p class="theme-version">
   <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.20.0.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.23.0.
 </p></div>
       
     </div>

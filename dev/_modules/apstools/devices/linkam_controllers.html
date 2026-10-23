@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 
@@ -26,8 +25,8 @@
   </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../../_static/styles/theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
-<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
+  <link href="../../../_static/styles/theme.css?digest=18bd87630a240e9c25be" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=18bd87630a240e9c25be" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css?v=4ae1632d" />
@@ -36,19 +35,19 @@
     <link rel="stylesheet" type="text/css" href="../../../_static/css/custom.css?v=fb1a6b5d" />
   
   <!-- So that users can add custom icons -->
-  <script defer src="../../../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
+  <script defer src="../../../_static/scripts/fontawesome.js?digest=18bd87630a240e9c25be"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9" />
-<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9" />
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=18bd87630a240e9c25be" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=18bd87630a240e9c25be" />
 
-    <script src="../../../_static/documentation_options.js?v=ccf66f66"></script>
+    <script src="../../../_static/documentation_options.js?v=ffe3ab98"></script>
     <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../../../_static/design-tabs.js?v=f930bc37"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '_modules/apstools/devices/linkam_controllers';</script>
     <script>
-        DOCUMENTATION_OPTIONS.theme_version = '0.20.0';
+        DOCUMENTATION_OPTIONS.theme_version = '0.23.0';
         DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://raw.githubusercontent.com/BCDA-APS/apstools/main/docs/source/_static/switcher.json';
         DOCUMENTATION_OPTIONS.theme_switcher_version_match = 'dev';
         DOCUMENTATION_OPTIONS.show_version_warning_banner =
@@ -58,6 +57,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="color-scheme" content="light dark"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="0.1" />
   
@@ -107,7 +107,7 @@
   
     <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
 <div class="bd-header__inner bd-page-width">
-  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+  <button type="button" class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
     <span class="fa-solid fa-bars"></span>
   </button>
   
@@ -213,7 +213,7 @@
         <div class="navbar-item navbar-persistent--container">
           
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button type="button" class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
  <i class="fa-solid fa-magnifying-glass"></i>
  <span class="search-button__default-text">Search</span>
  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -224,15 +224,15 @@
         <div class="navbar-item">
 
 <div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+  <button type="button" class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
     <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
     <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
     <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
   </button>
   <ul class="dropdown-menu dropdown-menu-end">
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
   </ul>
 </div></div>
       
@@ -258,7 +258,7 @@
   
     <div class="navbar-persistent--mobile">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button type="button" class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
  <i class="fa-solid fa-magnifying-glass"></i>
  <span class="search-button__default-text">Search</span>
  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -349,15 +349,15 @@
           <div class="navbar-item">
 
 <div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+  <button type="button" class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
     <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
     <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
     <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
   </button>
   <ul class="dropdown-menu dropdown-menu-end">
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
   </ul>
 </div></div>
         
@@ -436,7 +436,7 @@
                 <article class="bd-article">
                   
   <h1>Source code for apstools.devices.linkam_controllers</h1><div class="highlight"><pre>
-<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span></span><span class="sd">"""</span>
 <span class="sd">Linkam temperature controllers</span>
 <span class="sd">++++++++++++++++++++++++++++++</span>
 
@@ -444,7 +444,7 @@
 
 <span class="sd">   ~Linkam_CI94_Device</span>
 <span class="sd">   ~Linkam_T96_Device</span>
-<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">"""</span>
 
 <span class="kn">from</span><span class="w"> </span><span class="nn">ophyd</span><span class="w"> </span><span class="kn">import</span> <span class="n">Component</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">ophyd</span><span class="w"> </span><span class="kn">import</span> <span class="n">Device</span>
@@ -459,56 +459,56 @@
 <div class="viewcode-block" id="Linkam_CI94_Device">
 <a class="viewcode-back" href="../../../api/autoapi/apstools/devices/linkam_controllers/index.html#apstools.devices.linkam_controllers.Linkam_CI94_Device">[docs]</a>
 <span class="k">class</span><span class="w"> </span><span class="nc">Linkam_CI94_Device</span><span class="p">(</span><span class="n">Device</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Linkam model CI94 temperature controller</span>
 
 <span class="sd">    EXAMPLE::</span>
 
-<span class="sd">        ci94 = Linkam_CI94_Device(&quot;IOC:ci94:&quot;, name=&quot;ci94&quot;)</span>
-<span class="sd">    &quot;&quot;&quot;</span>
+<span class="sd">        ci94 = Linkam_CI94_Device("IOC:ci94:", name="ci94")</span>
+<span class="sd">    """</span>
 
-    <span class="n">controller_name</span> <span class="o">=</span> <span class="s2">&quot;Linkam CI94&quot;</span>
+    <span class="n">controller_name</span> <span class="o">=</span> <span class="s2">"Linkam CI94"</span>
 
     <span class="n">temperature</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span>
         <span class="n">PVPositionerSoftDoneWithStop</span><span class="p">,</span>
-        <span class="s2">&quot;&quot;</span><span class="p">,</span>
-        <span class="n">readback_pv</span><span class="o">=</span><span class="s2">&quot;temp&quot;</span><span class="p">,</span>
-        <span class="n">setpoint_pv</span><span class="o">=</span><span class="s2">&quot;setLimit&quot;</span><span class="p">,</span>
+        <span class="s2">""</span><span class="p">,</span>
+        <span class="n">readback_pv</span><span class="o">=</span><span class="s2">"temp"</span><span class="p">,</span>
+        <span class="n">setpoint_pv</span><span class="o">=</span><span class="s2">"setLimit"</span><span class="p">,</span>
         <span class="n">tolerance</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span>
-        <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;hinted&quot;</span><span class="p">,</span>
+        <span class="n">kind</span><span class="o">=</span><span class="s2">"hinted"</span><span class="p">,</span>
     <span class="p">)</span>
 
-    <span class="n">units</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">Signal</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;C&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
+    <span class="n">units</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">Signal</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s2">"C"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
 
-    <span class="n">temperature_in</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;tempIn&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="c1"># DO NOT USE: temperature2_in = Component(EpicsSignalRO, &quot;temp2In&quot;, kind=&quot;omitted&quot;)</span>
-    <span class="c1"># DO NOT USE: temperature2 = Component(EpicsSignalRO, &quot;temp2&quot;)</span>
+    <span class="n">temperature_in</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"tempIn"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="c1"># DO NOT USE: temperature2_in = Component(EpicsSignalRO, "temp2In", kind="omitted")</span>
+    <span class="c1"># DO NOT USE: temperature2 = Component(EpicsSignalRO, "temp2")</span>
 
-    <span class="n">dsc_in</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;dscIn&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">end_after_profile</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;endAfterProfile&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">end_on_stop</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;endOnStop&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">error_byte</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;errorByte&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">gen_stat</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;genStat&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">hold_control</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;hold&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">pump_mode</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;pumpMode&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">pump_speed</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;pumpSpeed&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">pump_speed_in</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;pumpSpeedIn&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">rate</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;setRate&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>  <span class="c1"># RPM</span>
+    <span class="n">dsc_in</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"dscIn"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">end_after_profile</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"endAfterProfile"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">end_on_stop</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"endOnStop"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">error_byte</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"errorByte"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">gen_stat</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"genStat"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">hold_control</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"hold"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">pump_mode</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"pumpMode"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">pump_speed</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"pumpSpeed"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">pump_speed_in</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"pumpSpeedIn"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">rate</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"setRate"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>  <span class="c1"># RPM</span>
 
-    <span class="n">speed</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;setSpeed&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
+    <span class="n">speed</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"setSpeed"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
     <span class="c1"># deg/min, speed 0 = automatic control</span>
 
-    <span class="n">start_control</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;start&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">status</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;status&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">status_in</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;statusIn&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">stop_control</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;stop&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
+    <span class="n">start_control</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"start"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">status</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"status"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">status_in</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"statusIn"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">stop_control</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"stop"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
 
-    <span class="c1"># clear_buffer = Component(EpicsSignal, &quot;clearBuffer&quot;, kind=&quot;omitted&quot;)  # bo</span>
-    <span class="c1"># scan_dis = Component(EpicsSignal, &quot;scanDis&quot;, kind=&quot;omitted&quot;)          # bo</span>
-    <span class="c1"># test = Component(EpicsSignal, &quot;test&quot;, kind=&quot;omitted&quot;)                 # longout</span>
-    <span class="c1"># d_cmd = Component(EpicsSignalRO, &quot;DCmd&quot;, kind=&quot;omitted&quot;)              # ai</span>
-    <span class="c1"># t_cmd = Component(EpicsSignalRO, &quot;TCmd&quot;, kind=&quot;omitted&quot;)              # ai</span>
-    <span class="c1"># dsc = Component(EpicsSignalRO, &quot;dsc&quot;, kind=&quot;omitted&quot;)                 # calc</span>
+    <span class="c1"># clear_buffer = Component(EpicsSignal, "clearBuffer", kind="omitted")  # bo</span>
+    <span class="c1"># scan_dis = Component(EpicsSignal, "scanDis", kind="omitted")          # bo</span>
+    <span class="c1"># test = Component(EpicsSignal, "test", kind="omitted")                 # longout</span>
+    <span class="c1"># d_cmd = Component(EpicsSignalRO, "DCmd", kind="omitted")              # ai</span>
+    <span class="c1"># t_cmd = Component(EpicsSignalRO, "TCmd", kind="omitted")              # ai</span>
+    <span class="c1"># dsc = Component(EpicsSignalRO, "dsc", kind="omitted")                 # calc</span>
 
     <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
@@ -521,51 +521,51 @@
 <div class="viewcode-block" id="T96Temperature">
 <a class="viewcode-back" href="../../../api/autoapi/apstools/devices/linkam_controllers/index.html#apstools.devices.linkam_controllers.T96Temperature">[docs]</a>
 <span class="k">class</span><span class="w"> </span><span class="nc">T96Temperature</span><span class="p">(</span><span class="n">PVPositionerSoftDoneWithStop</span><span class="p">):</span>
-    <span class="n">actuate</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;heating&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="n">actuate_value</span> <span class="o">=</span> <span class="s2">&quot;On&quot;</span></div>
+    <span class="n">actuate</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"heating"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">,</span> <span class="n">string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">actuate_value</span> <span class="o">=</span> <span class="s2">"On"</span></div>
 
 
 
 <div class="viewcode-block" id="Linkam_T96_Device">
 <a class="viewcode-back" href="../../../api/autoapi/apstools/devices/linkam_controllers/index.html#apstools.devices.linkam_controllers.Linkam_T96_Device">[docs]</a>
 <span class="k">class</span><span class="w"> </span><span class="nc">Linkam_T96_Device</span><span class="p">(</span><span class="n">Device</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Linkam model T96 temperature controller</span>
 
 <span class="sd">    EXAMPLE::</span>
 
-<span class="sd">        tc1 = Linkam_T96(&quot;IOC:tc1:&quot;, name=&quot;tc1&quot;)</span>
-<span class="sd">    &quot;&quot;&quot;</span>
+<span class="sd">        tc1 = Linkam_T96("IOC:tc1:", name="tc1")</span>
+<span class="sd">    """</span>
 
-    <span class="n">controller_name</span> <span class="o">=</span> <span class="s2">&quot;Linkam T96&quot;</span>
+    <span class="n">controller_name</span> <span class="o">=</span> <span class="s2">"Linkam T96"</span>
 
     <span class="n">temperature</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span>
         <span class="n">T96Temperature</span><span class="p">,</span>
-        <span class="s2">&quot;&quot;</span><span class="p">,</span>
-        <span class="n">readback_pv</span><span class="o">=</span><span class="s2">&quot;temperature_RBV&quot;</span><span class="p">,</span>
-        <span class="n">setpoint_pv</span><span class="o">=</span><span class="s2">&quot;rampLimit&quot;</span><span class="p">,</span>
+        <span class="s2">""</span><span class="p">,</span>
+        <span class="n">readback_pv</span><span class="o">=</span><span class="s2">"temperature_RBV"</span><span class="p">,</span>
+        <span class="n">setpoint_pv</span><span class="o">=</span><span class="s2">"rampLimit"</span><span class="p">,</span>
         <span class="n">tolerance</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span>
-        <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;hinted&quot;</span><span class="p">,</span>
+        <span class="n">kind</span><span class="o">=</span><span class="s2">"hinted"</span><span class="p">,</span>
     <span class="p">)</span>
 
-    <span class="n">ramprate</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;rampRate&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
-    <span class="n">units</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">Signal</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;C&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;config&quot;</span><span class="p">)</span>
+    <span class="n">ramprate</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"rampRate"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
+    <span class="n">units</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">Signal</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s2">"C"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"config"</span><span class="p">)</span>
 
-    <span class="n">controller_config</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;controllerConfig_RBV&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">controller_error</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;controllerError_RBV&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">controller_status</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;controllerStatus_RBV&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">heater_power</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;heaterPower_RBV&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">lnp_mode</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;lnpMode&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">lnp_speed</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;lnpSpeed&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">lnp_status</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;lnpStatus_RBV&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">pressure</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;pressure_RBV&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">ramp_at_limit</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;rampAtLimit_RBV&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">stage_config</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;stageConfig_RBV&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">status_error</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;statusError_RBV&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">vacuum</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">&quot;vacuum&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">vacuum_at_limit</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;vacuumAtLimit_RBV&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">vacuum_limit_readback</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">&quot;vacuumLimit&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>
-    <span class="n">vacuum_status</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">&quot;vacuumStatus_RBV&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">&quot;omitted&quot;</span><span class="p">)</span>  <span class="c1"># calc</span>
+    <span class="n">controller_config</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"controllerConfig_RBV"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">controller_error</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"controllerError_RBV"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">controller_status</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"controllerStatus_RBV"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">heater_power</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"heaterPower_RBV"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">lnp_mode</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"lnpMode"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">lnp_speed</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"lnpSpeed"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">lnp_status</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"lnpStatus_RBV"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">pressure</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"pressure_RBV"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">ramp_at_limit</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"rampAtLimit_RBV"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">stage_config</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"stageConfig_RBV"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">status_error</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"statusError_RBV"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">vacuum</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignal</span><span class="p">,</span> <span class="s2">"vacuum"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">vacuum_at_limit</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"vacuumAtLimit_RBV"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">vacuum_limit_readback</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalWithRBV</span><span class="p">,</span> <span class="s2">"vacuumLimit"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>
+    <span class="n">vacuum_status</span> <span class="o">=</span> <span class="n">Component</span><span class="p">(</span><span class="n">EpicsSignalRO</span><span class="p">,</span> <span class="s2">"vacuumStatus_RBV"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s2">"omitted"</span><span class="p">)</span>  <span class="c1"># calc</span>
 
     <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
@@ -612,8 +612,8 @@
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../../../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9"></script>
-<script defer src="../../../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9"></script>
+  <script defer src="../../../_static/scripts/bootstrap.js?digest=18bd87630a240e9c25be"></script>
+<script defer src="../../../_static/scripts/pydata-sphinx-theme.js?digest=18bd87630a240e9c25be"></script>
 
   <footer class="bd-footer">
 <div class="bd-footer__inner bd-page-width">
@@ -633,8 +633,7 @@
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
-    <br/>
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.2.0.
   </p>
 </div>
       
@@ -647,7 +646,7 @@
         <div class="footer-item">
 <p class="theme-version">
   <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.20.0.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.23.0.
 </p></div>
       
     </div>
